@@ -1,0 +1,28 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "bedrock_expansion:stone_spear"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "F",
+      "S",
+      "S"
+    ],
+    "key": {
+      "F": {
+        "item": "minecraft:flint"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "bedrock_expansion:stone_spear",
+      "count": 1
+    }
+  }
+}

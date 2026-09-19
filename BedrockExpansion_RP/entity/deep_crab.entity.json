@@ -1,0 +1,24 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "bedrock_expansion:deep_crab",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/deep_crab"
+      },
+      "geometry": {
+        "default": "geometry.humanoid"
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#b85e5e",
+        "overlay_color": "#242424"
+      }
+    }
+  }
+}

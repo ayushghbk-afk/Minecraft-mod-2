@@ -1,0 +1,37 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Bedrock Expansion: 200 Items | Resources",
+    "description": "Pixel placeholders, block materials, entity looks, and the visual language of the Bedrock Forge.",
+    "uuid": "0fa7bccb-c43a-52c9-afe8-0073eb87ac05",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "Bedrock Expansion resource data",
+      "type": "resources",
+      "uuid": "68d714ee-6bee-570f-8ad4-73ebb340ca0f",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "Minecraft-mod-2 contributors"
+    ],
+    "license": "MIT",
+    "product_type": "addon"
+  }
+}

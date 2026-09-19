@@ -1,0 +1,18 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "bedrock_expansion:bacon_cook"
+    },
+    "tags": [
+      "furnace"
+    ],
+    "input": {
+      "item": "minecraft:porkchop"
+    },
+    "output": {
+      "item": "bedrock_expansion:bacon_strip",
+      "count": 1
+    }
+  }
+}

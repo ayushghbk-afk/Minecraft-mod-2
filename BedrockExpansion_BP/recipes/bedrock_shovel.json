@@ -1,0 +1,28 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "bedrock_expansion:bedrock_shovel"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "DDD",
+      " S ",
+      " S "
+    ],
+    "key": {
+      "D": {
+        "item": "bedrock_expansion:bedrock_dust"
+      },
+      "S": {
+        "item": "bedrock_expansion:mythril_ingot"
+      }
+    },
+    "result": {
+      "item": "bedrock_expansion:bedrock_shovel",
+      "count": 1
+    }
+  }
+}

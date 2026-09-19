@@ -1,0 +1,14 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "bedrock_expansion:voidstone_feature"
+    },
+    "count": 2,
+    "places_block": "bedrock_expansion:voidstone",
+    "may_replace": [
+      "minecraft:stone",
+      "minecraft:deepslate"
+    ]
+  }
+}

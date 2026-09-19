@@ -1,0 +1,31 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "bedrock_expansion:magic_wand"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "M",
+      "R",
+      "S"
+    ],
+    "key": {
+      "M": {
+        "item": "bedrock_expansion:mana_crystal"
+      },
+      "R": {
+        "item": "bedrock_expansion:rune_stone"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "bedrock_expansion:magic_wand",
+      "count": 1
+    }
+  }
+}

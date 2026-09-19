@@ -1,0 +1,28 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "bedrock_expansion:silver_sword"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "M",
+      "M",
+      "S"
+    ],
+    "key": {
+      "M": {
+        "item": "bedrock_expansion:silver_ingot"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "bedrock_expansion:silver_sword",
+      "count": 1
+    }
+  }
+}

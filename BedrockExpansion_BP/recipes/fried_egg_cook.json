@@ -1,0 +1,18 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "bedrock_expansion:fried_egg_cook"
+    },
+    "tags": [
+      "furnace"
+    ],
+    "input": {
+      "item": "minecraft:egg"
+    },
+    "output": {
+      "item": "bedrock_expansion:fried_egg",
+      "count": 1
+    }
+  }
+}

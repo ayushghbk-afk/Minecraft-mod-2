@@ -1,0 +1,29 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "bedrock_expansion:pulse_extender"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "bedrock_expansion:copper_wire"
+      },
+      {
+        "item": "minecraft:repeater"
+      },
+      {
+        "item": "minecraft:repeater"
+      },
+      {
+        "item": "bedrock_expansion:tin_ingot"
+      }
+    ],
+    "result": {
+      "item": "bedrock_expansion:pulse_extender",
+      "count": 1
+    }
+  }
+}

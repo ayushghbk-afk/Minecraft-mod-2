@@ -1,0 +1,25 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "bedrock_expansion:copper_chestplate"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "M M",
+      "MMM",
+      "MMM"
+    ],
+    "key": {
+      "M": {
+        "item": "minecraft:copper_ingot"
+      }
+    },
+    "result": {
+      "item": "bedrock_expansion:copper_chestplate",
+      "count": 1
+    }
+  }
+}

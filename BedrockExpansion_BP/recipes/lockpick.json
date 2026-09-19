@@ -1,0 +1,27 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "bedrock_expansion:lockpick"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "I",
+      "C"
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:iron_nugget"
+      },
+      "C": {
+        "item": "bedrock_expansion:copper_wire"
+      }
+    },
+    "result": {
+      "item": "bedrock_expansion:lockpick",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "bedrock_expansion:adamantite_ore_feature"
+    },
+    "count": 4,
+    "places_block": "bedrock_expansion:adamantite_ore",
+    "may_replace": [
+      "minecraft:stone",
+      "minecraft:deepslate"
+    ]
+  }
+}

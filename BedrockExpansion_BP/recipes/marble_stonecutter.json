@@ -1,0 +1,23 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "bedrock_expansion:marble_stonecutter"
+    },
+    "tags": [
+      "stonecutter"
+    ],
+    "pattern": [
+      "M"
+    ],
+    "key": {
+      "M": {
+        "item": "bedrock_expansion:marble"
+      }
+    },
+    "result": {
+      "item": "bedrock_expansion:polished_marble",
+      "count": 1
+    }
+  }
+}

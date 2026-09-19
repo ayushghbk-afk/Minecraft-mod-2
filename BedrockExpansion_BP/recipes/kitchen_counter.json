@@ -1,0 +1,31 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "bedrock_expansion:kitchen_counter"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "PPP",
+      "SWS",
+      " S "
+    ],
+    "key": {
+      "P": {
+        "item": "minecraft:oak_planks"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      },
+      "W": {
+        "item": "minecraft:white_wool"
+      }
+    },
+    "result": {
+      "item": "bedrock_expansion:kitchen_counter",
+      "count": 1
+    }
+  }
+}

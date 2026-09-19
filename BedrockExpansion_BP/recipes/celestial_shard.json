@@ -1,0 +1,26 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "bedrock_expansion:celestial_shard"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "bedrock_expansion:lumen_crystal"
+      },
+      {
+        "item": "bedrock_expansion:storm_fragment"
+      },
+      {
+        "item": "minecraft:nether_star"
+      }
+    ],
+    "result": {
+      "item": "bedrock_expansion:celestial_shard",
+      "count": 1
+    }
+  }
+}

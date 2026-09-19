@@ -1,0 +1,63 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Bedrock Expansion: 200 Items | Behavior",
+    "description": "The Bedrock Forge, six progression tiers, five elemental realms, 200 authored content entries, creatures, magic, and machines.",
+    "uuid": "c6cd9028-9fc2-54e1-a1f4-bf881eaa7c15",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "Bedrock Expansion gameplay data",
+      "type": "data",
+      "uuid": "93562adf-6a0c-5207-be5c-10065b2ece72",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "description": "Bedrock Expansion server scripts",
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/main.js",
+      "uuid": "b53f704e-5c73-5cc1-8693-13868aad51ac",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "0fa7bccb-c43a-52c9-afe8-0073eb87ac05",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.15.0"
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "Minecraft-mod-2 contributors"
+    ],
+    "license": "MIT",
+    "product_type": "addon"
+  }
+}

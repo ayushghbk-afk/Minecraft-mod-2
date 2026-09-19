@@ -1,0 +1,31 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "bedrock_expansion:ender_backpack"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "LPL",
+      "PEP",
+      "LPL"
+    ],
+    "key": {
+      "L": {
+        "item": "minecraft:leather"
+      },
+      "P": {
+        "item": "bedrock_expansion:void_pearl"
+      },
+      "E": {
+        "item": "minecraft:ender_chest"
+      }
+    },
+    "result": {
+      "item": "bedrock_expansion:ender_backpack",
+      "count": 1
+    }
+  }
+}

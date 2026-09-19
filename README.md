@@ -1,144 +1,103 @@
-# Realistic Sticks
+# Bedrock Expansion: 200 Items
 
-A Bedrock Edition add-on that makes sticks feel like real gathered wood instead of one generic item. It adds species-specific branch sticks, fieldcraft tools and materials, a charcoal-smelting chain, and six placeable **3D blocks** for building natural camps. The resource pack also gives the vanilla `minecraft:stick` a natural bark-and-cut-end texture, livelier mob and attack animations, and water that rolls and streams like a real current.
+A complete Minecraft Bedrock Edition add-on project about rebuilding **The Bedrock Forge**, a lost civilization destroyed when the Void Realm leaked into the world. It is a **Behavior Pack + Resource Pack**, not a Java mod, Forge mod, or Fabric mod.
 
 ## Compatibility
 
-- **Edition:** Minecraft: Bedrock Edition
-- **Target:** Bedrock 26.50 / content format `1.26.50`
-- **Experiments:** None required
-- **Pack version:** 1.2.0
+- Minecraft Bedrock Edition 1.21+
+- Pack format: `1.21.0`
+- Stable server scripting API dependency: `@minecraft/server` `1.15.0`
+- English language content
+- No experiments are required for the core item, block, recipe, entity, loot, feature, and script content.
 
-The pack is authored against the current stable 26.50 add-on format. If a future Bedrock release changes a content schema, the `min_engine_version` and content format can be reviewed in one place by rerunning the generation scripts.
-
-## What is included
-
-**20 items, 6 3D blocks, 51 recipes, livelier vanilla mob animations, and realistic flowing water.**
-
-### Species sticks
-
-| Item | How to obtain it | Use |
-| --- | --- | --- |
-| Oak, spruce, birch, jungle, acacia, dark oak, mangrove, cherry, pale oak, and bamboo sticks | Craft the matching log, stripped log, plank, or bamboo in a crafting table | Species-specific fuel; accepted by the add-on recipes |
-| Vanilla sticks | One Realistic Stick in a crafting grid | Converts the new items back to two `minecraft:stick` items for vanilla recipes |
-
-Each wood species has its own color and grain treatment. The generated textures are deliberately pixel-art sized so they remain crisp in Bedrock's item atlas while still showing bark, grain, knots, and a cut end.
-
-### Fieldcraft materials
-
-| Item | How to obtain it | Use |
-| --- | --- | --- |
-| Bark strip | Peel 2 Realistic Sticks | Fuel (2s); crafting material |
-| Bark rope | 3 bark strips in a row | String alternative; binds tools and bundles |
-| Wood chips | Shave 1 Realistic Stick (gives 4) | Fuel (1s); tinder ingredient |
-| Tinder bundle | 4 wood chips + bark rope (or string) | Fuel (15s); campfire and torch ingredient |
-| Charcoal lump | Smelt a kindling or tinder bundle in a furnace | Strong fuel (60s); torch ingredient |
-
-### Tools and weapons
-
-| Item | How to obtain it | Stats |
-| --- | --- | --- |
-| Sharpened stick | One Realistic Stick plus flint | +2 damage, 32 durability |
-| Walking staff | 2 sticks + bark rope (diagonal) | +3 damage, 96 durability |
-| Hunting spear | Sharpened stick + bark rope + stick (vertical) | +5 damage, 48 durability |
-| Wooden mallet | 3 kindling + 2 sticks | +6 damage, 64 durability |
-| Kindling bundle | Four Realistic Sticks plus string (or bark rope) | 30 seconds of furnace fuel per bundle |
-| Torches ×8 | Kindling bundle + coal (or charcoal lump) | Bulk torch crafting |
-
-All tools are repairable with Realistic Sticks.
-
-### 3D camp blocks (placeable)
-
-Each block has a custom 3D model, wood sounds, and drops itself when broken:
-
-| Block | Recipe | Notes |
-| --- | --- | --- |
-| Stick pile | 4 Realistic Sticks | Low decorative pile of branches |
-| Kindling block | 4 Realistic Sticks + bark rope | Tied bundle block |
-| Sharpened stakes | 2 sharpened sticks (vertical) | Defensive spike row on a ground beam; gives 2 |
-| Campfire kit | 3 Realistic Sticks + tinder bundle | Teepee of poles over a tinder mound |
-| Log stool | 6 Realistic Sticks | Stump seat with bark sides and growth-ring top |
-| Trail torch | Coal + tinder bundle + stick (vertical) | Light level 14; charcoal variant also works |
-
-### Livelier mob and attack animations
-
-The resource pack overrides vanilla animation identifiers (no client-entity copies, so it stays compatible with Bedrock 26.50). Idle poses stay still; extra motion is driven by the same `attack_time` / walk variables vanilla already sets.
-
-| Who | What changes |
-| --- | --- |
-| Players | Bigger third-person swing with torso twist and a forward lunge; first-person punch and item swing travel farther |
-| Zombies, husks, drowned | Two-arm clawing lunge with body lean and head snap |
-| Skeletons and other humanoids | Heavier walk (arm swing, hip sway, foot plant) and a committed melee swing |
-| Vindicators | Overhead chop with follow-through |
-| Iron golems | Two-handed slam that folds the body into the hit, plus a heavier stomp |
-| Creepers | Waddling walk with body roll |
-| Spiders | Larger alternating leg waves and a crawling bob |
-| Cows, pigs, sheep, and other quadrupeds | Diagonal gait with body bounce and head nod |
-| Chickens | Head-bobbing strut |
-
-### Realistic flowing water
-
-Vanilla liquid spread is engine-side and is not replaced (oceans, buckets, boats, and drowning keep working). The pack restyles the water flipbooks so the surface behaves more like real water:
-
-- Still water uses overlapping wave trains and caustic glints that roll across ponds and oceans.
-- Flowing water is a downhill current: meandering streamlines, foam where filaments converge, and whitewater on the fast layer.
-- Cauldrons use the same still-water sheet.
-
-The grey sheets (`water_still_grey`, `water_flow_grey`) stay greyscale so biome tint still paints jungle, swamp, and ocean water correctly.
-
-## Install
-
-1. Download `releases/RealisticSticks-1.2.0.mcaddon` from this repository.
-2. Open the file with Minecraft: Bedrock Edition. Minecraft will import both the behavior pack and resource pack.
-3. Create a new world or edit an existing world.
-4. Activate **Realistic Sticks | Behavior** and **Realistic Sticks | Resources**. The behavior pack already declares the resource-pack dependency, so enabling the behavior pack is normally enough.
-5. Enter the world and craft sticks from the wood species you want.
-
-For a quick smoke test, use:
+## Project tree
 
 ```text
-/give @s realstick:oak_stick 16
-/give @s realstick:hunting_spear 1
-/give @s realstick:wooden_mallet 1
-/give @s realstick:charcoal_lump 4
-/give @s realstick:stick_pile 4
-/give @s realstick:campfire_kit 1
-/give @s realstick:trail_torch 2
+BedrockExpansion_BP/
+├── manifest.json
+├── items/                 # 149 portable custom item definitions
+├── blocks/                # 51 native block definitions (the block inventory item is automatic)
+├── entities/              # 10 custom creatures
+├── recipes/
+├── loot_tables/
+├── spawn_rules/
+├── features/
+├── feature_rules/
+├── scripts/
+├── functions/
+└── texts/
+BedrockExpansion_RP/
+├── manifest.json
+├── textures/items/        # all 200 catalog texture placeholders
+├── textures/blocks/
+├── textures/entity/
+├── models/
+├── sounds/
+├── texts/
+└── ui/
 ```
 
-## Development
+The catalog is exactly 200 entries. The 40 Blocks & Building / Redstone & Tech entries, 8 world-generation ore/crystal entries, plus Alchemy Table, Waypoint Stone, and Portal Frame are implemented as 51 native blocks; native Bedrock blocks already have inventory forms, so duplicating them as `minecraft:item` definitions would create duplicate identifiers and content-log errors. `BEDROCK_EXPANSION_CATALOG.json` records both sets.
 
-This repository keeps the two source packs unpacked so they can be edited or copied into the Bedrock development pack folders:
+## Features
 
-```text
-packs/
-├── realistic_sticks_bp/     # behavior pack: items, blocks, loot, and recipes
-└── realistic_sticks_rp/     # resource pack: textures, models, mob animations, water flipbooks
-```
+- Six progression tiers: Copper/Tin, Silver, Platinum, Mythril, Adamantite, and elemental/Void endgame, plus foundational tier 0.
+- Five realm paths: Ember, Frost, Storm, Lumen, and Void.
+- 200 individually specified entries with purpose, lore, acquisition, exact recipe description, stats, interactions, texture, sound, script hook, balance note, and progression role in `DESIGN.md`.
+- Ores, smelting, armor, tools, weapons, foods, farming resources, full-cube building materials, tech blocks, magic, custom mobs, spawn eggs, furniture tokens, and adventure utilities.
+- Stable scripts for magic effects, jetpack impulse, grapple movement, survival gear, tool modes, tech status, portal messaging, and backpack storage fallback.
+- Loot tables, spawn rules, underground ore features, feature rules, functions, and placeholder art.
 
-The project has no third-party build dependency:
+## Install from source
+
+1. Copy `BedrockExpansion_BP` to the Bedrock development `behavior_packs` folder.
+2. Copy `BedrockExpansion_RP` to the `resource_packs` folder.
+3. Create or edit a world and activate both packs. The behavior manifest already depends on the resource manifest.
+4. Enter the world and run `/function bedrock_forge_setup`, then `/function bedrock_forge_help`.
+5. Test recipes in a crafting table, furnace, smithing table, brewing stand, and stonecutter.
+
+For a direct smoke test, use `/give @s bedrock_expansion:bedrock_dust 4`, `/give @s bedrock_expansion:copper_sword 1`, `/give @s bedrock_expansion:backpack 1`, `/give @s bedrock_expansion:fire_spell 1`, `/give @s bedrock_expansion:copper_golem_spawn_egg 1`, and `/give @s bedrock_expansion:copper_block 8`.
+
+## Build an importable .mcaddon
+
+After generating the source tree, package both packs for a one-click import:
 
 ```bash
-python3 scripts/generate_pack_content.py
-python3 scripts/generate_textures.py
-python3 scripts/generate_animations.py
-python3 scripts/build_addon.py
-python3 scripts/validate_addon.py
+python3 scripts/package_bedrock_expansion.py
 ```
 
-The build writes an importable `.mcaddon` to `releases/`. The validator checks JSON syntax, manifest UUID wiring, item-to-texture references, block-to-geometry and block-to-loot references, PNG dimensions, water flipbook size (16×512), animation identifier overrides, recipe identifiers, and the outer `.mcaddon` archive structure.
+The result is `releases/BedrockExpansion-1.0.0.mcaddon`; open it with Minecraft Bedrock, then activate both packs in the world editor.
 
-## Design notes
+## Generate placeholders
 
-- Custom sticks use the `realstick:` namespace and a shared `realstick:wood_sticks` item tag, so the tool, bundle, and vanilla-conversion recipes accept every species without duplicating those recipes.
-- Custom 3D blocks use plain cube geometry with explicit per-face UVs and a single 16×16 texture each (the stool uses separate bark-side and ring-top textures), keeping them stable with no experiments required.
-- The add-on does not replace vanilla crafting recipes or alter world-generation loot. That keeps it compatible with other packs; use the included conversion recipe when a vanilla recipe needs `minecraft:stick`.
-- The vanilla stick icon is intentionally overridden by the resource pack. Remove `textures/items/stick.png` and its `stick` entry in `textures/item_texture.json` if only the new custom items should be restyled.
-- No scripts, experimental toggles, or custom entities are needed for the current feature set.
+`generate_placeholders.py` uses Pillow when it is installed and includes a dependency-free PNG fallback for clean/offline checkouts. For the intended art workflow:
 
-## References
+```bash
+python3 -m pip install Pillow
+python3 generate_placeholders.py
+```
 
-- [Minecraft: Bedrock Edition 26.50 changelog](https://www.minecraft.net/en-us/article/minecraft--bedrock-edition-26-50-changelog)
-- [Microsoft Learn: Add-On manifest reference](https://learn.microsoft.com/en-us/minecraft/creator/reference/content/addonsreference/packmanifest?view=minecraft-bedrock-stable)
-- [Microsoft Learn: Custom items](https://learn.microsoft.com/en-us/minecraft/creator/documents/addcustomitems?view=minecraft-bedrock-stable)
-- [Microsoft Learn: Advanced custom blocks](https://learn.microsoft.com/en-us/minecraft/creator/documents/advancedcustomblocks?view=minecraft-bedrock-stable)
+It reads `BEDROCK_EXPANSION_CATALOG.json` and generates a 16×16 icon for every item/block entry, 16×16 block textures, 64×64 entity placeholders, and both 64×64 pack icons. Placeholder pixels are deliberately simple and easy to replace.
+
+## Validation
+
+The generator is deterministic and the self-check below validates the exact 200-entry boundary, unique IDs, JSON syntax, item/block coverage, texture coverage, recipes, loot tables, features, spawn rules, manifests, and the docs.
+
+```bash
+python3 scripts/build_bedrock_expansion.py
+python3 generate_placeholders.py
+python3 scripts/validate_bedrock_expansion.py
+```
+
+## Known Bedrock limitations and deliberate approximations
+
+- Bedrock custom items cannot safely become arbitrary portable inventories. Backpack scripts therefore expose a storage-channel preview and document chest-backed storage; a future `@minecraft/server-ui` implementation can add a form without changing item IDs.
+- A vanilla-compatible item-use event cannot make every custom weapon behave exactly like a Java projectile. Lumen Bow, Ember Crossbow, Frost Trident, and Storm Hammer use authored stats plus script feedback/cooldowns rather than Java projectile internals.
+- Native full-cube custom blocks are used for the machine/building entries. Complex multiblock machines and portals are represented with safe blocks, recipes, messages, and quest hooks rather than unsupported Java block entities.
+- Ore feature syntax is included for stable Bedrock world generation, but existing worlds may need newly generated chunks; test in a fresh world when checking distribution.
+- Placeholder art is not a final art pass. Sound hooks point to stable vanilla sound events until original audio is supplied.
+- The five realm systems are represented by realm ingredients, mobs, scripts, portal quest hooks, and documented story gates; custom dimensions would require a separate dimension JSON/content pass and are intentionally not claimed as a stable 1.21 feature here.
+
+## License
+
+MIT, consistent with the repository's existing add-on work.

@@ -1,0 +1,31 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "bedrock_expansion:crystal_dagger"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "C",
+      "A",
+      "S"
+    ],
+    "key": {
+      "C": {
+        "item": "bedrock_expansion:amethyst_core"
+      },
+      "A": {
+        "item": "minecraft:copper_ingot"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "bedrock_expansion:crystal_dagger",
+      "count": 1
+    }
+  }
+}

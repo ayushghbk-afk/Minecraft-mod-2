@@ -1,0 +1,25 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "bedrock_expansion:copper_block"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "MMM",
+      "MMM",
+      "MMM"
+    ],
+    "key": {
+      "M": {
+        "item": "minecraft:copper_ingot"
+      }
+    },
+    "result": {
+      "item": "bedrock_expansion:copper_block",
+      "count": 1
+    }
+  }
+}

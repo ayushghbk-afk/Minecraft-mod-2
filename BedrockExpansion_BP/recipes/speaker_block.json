@@ -1,0 +1,26 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "bedrock_expansion:speaker_block"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "bedrock_expansion:copper_wire"
+      },
+      {
+        "item": "minecraft:note_block"
+      },
+      {
+        "item": "bedrock_expansion:silver_ingot"
+      }
+    ],
+    "result": {
+      "item": "bedrock_expansion:speaker_block",
+      "count": 1
+    }
+  }
+}

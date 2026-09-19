@@ -1,0 +1,31 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "bedrock_expansion:key"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "G  ",
+      "IR ",
+      "  I"
+    ],
+    "key": {
+      "G": {
+        "item": "minecraft:gold_ingot"
+      },
+      "I": {
+        "item": "minecraft:iron_nugget"
+      },
+      "R": {
+        "item": "bedrock_expansion:rune_stone"
+      }
+    },
+    "result": {
+      "item": "bedrock_expansion:key",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "bedrock_expansion:summon_spell"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "bedrock_expansion:spell_book"
+      },
+      {
+        "item": "bedrock_expansion:soul_gem"
+      },
+      {
+        "item": "bedrock_expansion:copper_golem_core"
+      }
+    ],
+    "result": {
+      "item": "bedrock_expansion:summon_spell",
+      "count": 1
+    }
+  }
+}

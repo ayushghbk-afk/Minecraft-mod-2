@@ -1,0 +1,23 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "bedrock_expansion:platinum_potato"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:potato"
+      },
+      {
+        "item": "bedrock_expansion:platinum_ingot"
+      }
+    ],
+    "result": {
+      "item": "bedrock_expansion:platinum_potato",
+      "count": 1
+    }
+  }
+}

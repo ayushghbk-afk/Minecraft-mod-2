@@ -1,0 +1,24 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "bedrock_expansion:silver_golem",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/silver_golem"
+      },
+      "geometry": {
+        "default": "geometry.humanoid"
+      },
+      "render_controllers": [
+        "controller.render.default"
+      ],
+      "spawn_egg": {
+        "base_color": "#d8e2ee",
+        "overlay_color": "#242424"
+      }
+    }
+  }
+}

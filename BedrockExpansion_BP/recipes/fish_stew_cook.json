@@ -1,0 +1,18 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "bedrock_expansion:fish_stew_cook"
+    },
+    "tags": [
+      "furnace"
+    ],
+    "input": {
+      "item": "minecraft:cod"
+    },
+    "output": {
+      "item": "bedrock_expansion:fish_stew",
+      "count": 1
+    }
+  }
+}

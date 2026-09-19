@@ -1,0 +1,28 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "bedrock_expansion:amethyst_core"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "ABA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:amethyst_shard"
+      },
+      "B": {
+        "item": "minecraft:amethyst_block"
+      }
+    },
+    "result": {
+      "item": "bedrock_expansion:amethyst_core",
+      "count": 1
+    }
+  }
+}

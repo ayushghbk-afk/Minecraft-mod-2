@@ -1,0 +1,23 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "bedrock_expansion:bedrock_dust"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "bedrock_expansion:voidstone"
+      },
+      {
+        "item": "bedrock_expansion:deepslate_crystal"
+      }
+    ],
+    "result": {
+      "item": "bedrock_expansion:bedrock_dust",
+      "count": 2
+    }
+  }
+}

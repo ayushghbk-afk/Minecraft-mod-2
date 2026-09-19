@@ -1,0 +1,18 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "bedrock_expansion:silver_ingot_from_ore"
+    },
+    "tags": [
+      "furnace"
+    ],
+    "input": {
+      "item": "bedrock_expansion:silver_ore"
+    },
+    "output": {
+      "item": "bedrock_expansion:silver_ingot",
+      "count": 1
+    }
+  }
+}

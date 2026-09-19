@@ -1,0 +1,26 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "bedrock_expansion:sensor_block"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "bedrock_expansion:amethyst_core"
+      },
+      {
+        "item": "bedrock_expansion:copper_wire"
+      },
+      {
+        "item": "minecraft:glass"
+      }
+    ],
+    "result": {
+      "item": "bedrock_expansion:sensor_block",
+      "count": 1
+    }
+  }
+}
