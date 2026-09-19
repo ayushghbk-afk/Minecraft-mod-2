@@ -1,0 +1,29 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "realstick:acacia_stick_from_acacia_log"
+    },
+    "group": "realstick:wood_sticks",
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "L"
+    ],
+    "key": {
+      "L": {
+        "item": "minecraft:acacia_log"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:acacia_log"
+      }
+    ],
+    "result": {
+      "item": "realstick:acacia_stick",
+      "count": 4
+    }
+  }
+}

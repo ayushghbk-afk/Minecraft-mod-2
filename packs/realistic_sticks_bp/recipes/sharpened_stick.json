@@ -1,0 +1,29 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "realstick:sharpened_stick"
+    },
+    "group": "realstick:fieldcraft",
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "tag": "realstick:wood_sticks"
+      },
+      {
+        "item": "minecraft:flint"
+      }
+    ],
+    "unlock": [
+      {
+        "item": "minecraft:flint"
+      }
+    ],
+    "result": {
+      "item": "realstick:sharpened_stick",
+      "count": 1
+    }
+  }
+}

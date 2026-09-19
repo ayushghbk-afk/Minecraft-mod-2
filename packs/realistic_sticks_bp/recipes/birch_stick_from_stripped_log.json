@@ -1,0 +1,29 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "realstick:birch_stick_from_stripped_birch_log"
+    },
+    "group": "realstick:wood_sticks",
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "L"
+    ],
+    "key": {
+      "L": {
+        "item": "minecraft:stripped_birch_log"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:stripped_birch_log"
+      }
+    ],
+    "result": {
+      "item": "realstick:birch_stick",
+      "count": 4
+    }
+  }
+}

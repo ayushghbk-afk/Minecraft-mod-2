@@ -1,0 +1,29 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "realstick:bamboo_stick_from_bamboo"
+    },
+    "group": "realstick:wood_sticks",
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "L"
+    ],
+    "key": {
+      "L": {
+        "item": "minecraft:bamboo"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:bamboo"
+      }
+    ],
+    "result": {
+      "item": "realstick:bamboo_stick",
+      "count": 2
+    }
+  }
+}

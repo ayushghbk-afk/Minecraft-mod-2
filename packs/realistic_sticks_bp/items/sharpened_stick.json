@@ -1,0 +1,53 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "realstick:sharpened_stick",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "realstick:sharpened_stick"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "Sharpened stick"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:damage": {
+        "value": 2
+      },
+      "minecraft:hand_equipped": true,
+      "minecraft:durability": {
+        "max_durability": 32
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "realstick:oak_stick",
+              "realstick:spruce_stick",
+              "realstick:birch_stick",
+              "realstick:jungle_stick",
+              "realstick:acacia_stick",
+              "realstick:dark_oak_stick",
+              "realstick:mangrove_stick",
+              "realstick:cherry_stick",
+              "realstick:pale_oak_stick",
+              "realstick:bamboo_stick"
+            ],
+            "repair_amount": 8
+          }
+        ]
+      },
+      "minecraft:tags": {
+        "tags": [
+          "realstick:sharpened_sticks"
+        ]
+      }
+    }
+  }
+}

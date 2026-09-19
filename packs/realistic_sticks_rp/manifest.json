@@ -1,0 +1,37 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Realistic Sticks | Resources",
+    "description": "Hand-authored pixel textures for natural wood sticks.",
+    "uuid": "74e20c0d-8f94-4d65-9821-4131be457401",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      50
+    ]
+  },
+  "modules": [
+    {
+      "description": "Realistic Sticks resource textures",
+      "type": "resources",
+      "uuid": "b8410363-f43b-429f-9b36-3d51d8dc8d01",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "Minecraft-mod-2 contributors"
+    ],
+    "license": "MIT",
+    "product_type": "addon"
+  }
+}

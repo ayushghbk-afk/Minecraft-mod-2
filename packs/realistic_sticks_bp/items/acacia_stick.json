@@ -1,0 +1,30 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "realstick:acacia_stick",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "realstick:acacia_stick"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "Acacia stick"
+      },
+      "minecraft:max_stack_size": 64,
+      "minecraft:fuel": {
+        "duration": 5
+      },
+      "minecraft:tags": {
+        "tags": [
+          "realstick:wood_sticks"
+        ]
+      }
+    }
+  }
+}

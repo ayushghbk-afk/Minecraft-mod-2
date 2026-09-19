@@ -1,0 +1,21 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "realstick:convert_to_vanilla_sticks"
+    },
+    "group": "realstick:fieldcraft",
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "tag": "realstick:wood_sticks"
+      }
+    ],
+    "result": {
+      "item": "minecraft:stick",
+      "count": 2
+    }
+  }
+}
