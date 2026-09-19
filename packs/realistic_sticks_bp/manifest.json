@@ -2,11 +2,11 @@
   "format_version": 2,
   "header": {
     "name": "Realistic Sticks | Behavior",
-    "description": "Species sticks, fieldcraft tools, tinder, charcoal, and 3D camp blocks.",
+    "description": "Species sticks, fieldcraft tools, tinder, charcoal, and 3D camp blocks. Pair with the resource pack for livelier mobs and flowing water.",
     "uuid": "0f6a5f6e-8db3-4df0-b8f7-fab9d9e7c901",
     "version": [
       1,
-      1,
+      2,
       0
     ],
     "min_engine_version": [
@@ -22,7 +22,7 @@
       "uuid": "9d1cde2a-9c41-4fdb-b28d-f44c818c5c01",
       "version": [
         1,
-        1,
+        2,
         0
       ]
     }
@@ -32,7 +32,7 @@
       "uuid": "74e20c0d-8f94-4d65-9821-4131be457401",
       "version": [
         1,
-        1,
+        2,
         0
       ]
     }

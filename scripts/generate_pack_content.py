@@ -14,7 +14,7 @@ BP_UUID = "0f6a5f6e-8db3-4df0-b8f7-fab9d9e7c901"
 BP_MODULE_UUID = "9d1cde2a-9c41-4fdb-b28d-f44c818c5c01"
 RP_UUID = "74e20c0d-8f94-4d65-9821-4131be457401"
 RP_MODULE_UUID = "b8410363-f43b-429f-9b36-3d51d8dc8d01"
-VERSION = [1, 1, 0]
+VERSION = [1, 2, 0]
 ENGINE = [1, 26, 50]
 FORMAT = "1.26.50"
 GEO_FORMAT = "1.19.0"
@@ -345,7 +345,7 @@ def main() -> None:
         "format_version": 2,
         "header": {
             "name": "Realistic Sticks | Behavior",
-            "description": "Species sticks, fieldcraft tools, tinder, charcoal, and 3D camp blocks.",
+            "description": "Species sticks, fieldcraft tools, tinder, charcoal, and 3D camp blocks. Pair with the resource pack for livelier mobs and flowing water.",
             "uuid": BP_UUID,
             "version": VERSION,
             "min_engine_version": ENGINE,
@@ -367,7 +367,7 @@ def main() -> None:
         "format_version": 2,
         "header": {
             "name": "Realistic Sticks | Resources",
-            "description": "Pixel textures and 3D models for natural wood sticks.",
+            "description": "Pixel wood textures, 3D camp models, livelier mob and attack animations, and realistic flowing water.",
             "uuid": RP_UUID,
             "version": VERSION,
             "min_engine_version": ENGINE,

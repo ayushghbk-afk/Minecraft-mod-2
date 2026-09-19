@@ -1,0 +1,57 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.creeper.legs": {
+      "loop": true,
+      "bones": {
+        "body": {
+          "rotation": [
+            0.0,
+            "variable.leg_rot * 0.12",
+            "variable.leg_rot * 0.18"
+          ],
+          "position": [
+            0.0,
+            "math.abs(variable.leg_rot) * 0.012",
+            0.0
+          ]
+        },
+        "head": {
+          "rotation": [
+            "math.abs(variable.leg_rot) * 0.08",
+            0.0,
+            "variable.leg_rot * -0.1"
+          ]
+        },
+        "leg0": {
+          "rotation": [
+            "variable.leg_rot * 1.15 - this",
+            0.0,
+            0.0
+          ]
+        },
+        "leg1": {
+          "rotation": [
+            "-variable.leg_rot * 1.15 - this",
+            0.0,
+            0.0
+          ]
+        },
+        "leg2": {
+          "rotation": [
+            "-variable.leg_rot * 1.15 - this",
+            0.0,
+            0.0
+          ]
+        },
+        "leg3": {
+          "rotation": [
+            "variable.leg_rot * 1.15 - this",
+            0.0,
+            0.0
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.player.attack.positions": {
+      "loop": true,
+      "bones": {
+        "head": {
+          "rotation": [
+            "math.sin(variable.attack_time * 180.0) * 8.0",
+            0.0,
+            0.0
+          ]
+        },
+        "body": {
+          "position": [
+            0.0,
+            "math.sin(variable.attack_time * 180.0) * -0.85",
+            "math.sin(variable.attack_time * 180.0) * 2.2"
+          ]
+        },
+        "waist": {
+          "position": [
+            0.0,
+            0.0,
+            "math.sin(variable.attack_time * 180.0) * 1.1"
+          ]
+        }
+      }
+    },
+    "animation.player.attack.rotations": {
+      "loop": true,
+      "bones": {
+        "body": {
+          "rotation": [
+            "math.sin(variable.attack_time * 180.0) * 10.0",
+            "variable.attack_body_rot_y * 1.35",
+            "math.sin(math.sqrt(variable.attack_time) * 360.0) * -6.0"
+          ]
+        },
+        "head": {
+          "rotation": [
+            "math.sin(variable.attack_time * 180.0) * 6.0",
+            "math.sin(math.sqrt(variable.attack_time) * 360.0) * 4.0",
+            0.0
+          ]
+        },
+        "leftarm": {
+          "rotation": [
+            "-((math.sin((1.0 - math.pow(1.0 - variable.attack_time, 3.0)) * 180.0) * 1.25 + math.sin(variable.attack_time * 180.0) * 0.35)) * 16.0",
+            "math.sin(math.sqrt(variable.attack_time) * 360.0) * -10.0",
+            "math.sin(variable.attack_time * 180.0) * 14.0"
+          ]
+        },
+        "rightarm": {
+          "rotation": [
+            "-((math.sin((1.0 - math.pow(1.0 - variable.attack_time, 3.0)) * 180.0) * 1.25 + math.sin(variable.attack_time * 180.0) * 0.35)) * 52.0",
+            "-(math.sin((1.0 - math.pow((1.0 - variable.attack_time), 4.0)) * 180.0) ? (-105.0 * math.sin((1.0 - math.pow((1.0 - variable.attack_time), 4.0)) * 180.0)) + 36.0 : 0.0)",
+            "math.sin(variable.attack_time * 180.0) * -22.0"
+          ]
+        },
+        "leftleg": {
+          "rotation": [
+            "math.sin(variable.attack_time * 180.0) * -8.0",
+            -0.1,
+            -0.1
+          ]
+        },
+        "rightleg": {
+          "rotation": [
+            "math.sin(variable.attack_time * 180.0) * 10.0",
+            0.1,
+            0.1
+          ]
+        }
+      }
+    },
+    "animation.player.bob": {
+      "loop": true,
+      "bones": {
+        "body": {
+          "position": [
+            0.0,
+            "math.sin(query.life_time * 90.0) * 0.32",
+            0.0
+          ]
+        },
+        "leftarm": {
+          "rotation": [
+            0.0,
+            0.0,
+            "-((math.cos(query.life_time * 103.2) * 3.6) + 3.6)"
+          ]
+        },
+        "rightarm": {
+          "rotation": [
+            0.0,
+            0.0,
+            "(math.cos(query.life_time * 103.2) * 3.6) + 3.6"
+          ]
+        }
+      }
+    },
+    "animation.player.move.arms": {
+      "loop": true,
+      "bones": {
+        "leftarm": {
+          "rotation": [
+            "variable.tcos0 * 1.4",
+            0.0,
+            "variable.tcos0 * 0.1"
+          ]
+        },
+        "rightarm": {
+          "rotation": [
+            "-variable.tcos0 * 1.4",
+            0.0,
+            "variable.tcos0 * 0.1"
+          ]
+        },
+        "body": {
+          "rotation": [
+            "math.abs(variable.tcos0) * 0.045",
+            "variable.tcos0 * 0.14",
+            "variable.tcos0 * 0.06"
+          ],
+          "position": [
+            0.0,
+            "math.abs(variable.tcos0) * 0.02",
+            0.0
+          ]
+        }
+      }
+    },
+    "animation.player.move.legs": {
+      "loop": true,
+      "bones": {
+        "leftleg": {
+          "rotation": [
+            "variable.tcos0 * -1.7",
+            -0.1,
+            -0.1
+          ]
+        },
+        "rightleg": {
+          "rotation": [
+            "variable.tcos0 * 1.7",
+            0.1,
+            0.1
+          ]
+        }
+      }
+    }
+  }
+}

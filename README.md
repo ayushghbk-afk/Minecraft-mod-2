@@ -1,19 +1,19 @@
 # Realistic Sticks
 
-A Bedrock Edition add-on that makes sticks feel like real gathered wood instead of one generic item. It adds species-specific branch sticks, fieldcraft tools and materials, a charcoal-smelting chain, and six placeable **3D blocks** for building natural camps. The resource pack also gives the vanilla `minecraft:stick` a natural bark-and-cut-end texture.
+A Bedrock Edition add-on that makes sticks feel like real gathered wood instead of one generic item. It adds species-specific branch sticks, fieldcraft tools and materials, a charcoal-smelting chain, and six placeable **3D blocks** for building natural camps. The resource pack also gives the vanilla `minecraft:stick` a natural bark-and-cut-end texture, livelier mob and attack animations, and water that rolls and streams like a real current.
 
 ## Compatibility
 
 - **Edition:** Minecraft: Bedrock Edition
 - **Target:** Bedrock 26.50 / content format `1.26.50`
 - **Experiments:** None required
-- **Pack version:** 1.1.0
+- **Pack version:** 1.2.0
 
 The pack is authored against the current stable 26.50 add-on format. If a future Bedrock release changes a content schema, the `min_engine_version` and content format can be reviewed in one place by rerunning the generation scripts.
 
 ## What is included
 
-**20 items, 6 3D blocks, 51 recipes.**
+**20 items, 6 3D blocks, 51 recipes, livelier vanilla mob animations, and realistic flowing water.**
 
 ### Species sticks
 
@@ -60,9 +60,35 @@ Each block has a custom 3D model, wood sounds, and drops itself when broken:
 | Log stool | 6 Realistic Sticks | Stump seat with bark sides and growth-ring top |
 | Trail torch | Coal + tinder bundle + stick (vertical) | Light level 14; charcoal variant also works |
 
+### Livelier mob and attack animations
+
+The resource pack overrides vanilla animation identifiers (no client-entity copies, so it stays compatible with Bedrock 26.50). Idle poses stay still; extra motion is driven by the same `attack_time` / walk variables vanilla already sets.
+
+| Who | What changes |
+| --- | --- |
+| Players | Bigger third-person swing with torso twist and a forward lunge; first-person punch and item swing travel farther |
+| Zombies, husks, drowned | Two-arm clawing lunge with body lean and head snap |
+| Skeletons and other humanoids | Heavier walk (arm swing, hip sway, foot plant) and a committed melee swing |
+| Vindicators | Overhead chop with follow-through |
+| Iron golems | Two-handed slam that folds the body into the hit, plus a heavier stomp |
+| Creepers | Waddling walk with body roll |
+| Spiders | Larger alternating leg waves and a crawling bob |
+| Cows, pigs, sheep, and other quadrupeds | Diagonal gait with body bounce and head nod |
+| Chickens | Head-bobbing strut |
+
+### Realistic flowing water
+
+Vanilla liquid spread is engine-side and is not replaced (oceans, buckets, boats, and drowning keep working). The pack restyles the water flipbooks so the surface behaves more like real water:
+
+- Still water uses overlapping wave trains and caustic glints that roll across ponds and oceans.
+- Flowing water is a downhill current: meandering streamlines, foam where filaments converge, and whitewater on the fast layer.
+- Cauldrons use the same still-water sheet.
+
+The grey sheets (`water_still_grey`, `water_flow_grey`) stay greyscale so biome tint still paints jungle, swamp, and ocean water correctly.
+
 ## Install
 
-1. Download `releases/RealisticSticks-1.1.0.mcaddon` from this repository.
+1. Download `releases/RealisticSticks-1.2.0.mcaddon` from this repository.
 2. Open the file with Minecraft: Bedrock Edition. Minecraft will import both the behavior pack and resource pack.
 3. Create a new world or edit an existing world.
 4. Activate **Realistic Sticks | Behavior** and **Realistic Sticks | Resources**. The behavior pack already declares the resource-pack dependency, so enabling the behavior pack is normally enough.
@@ -87,7 +113,7 @@ This repository keeps the two source packs unpacked so they can be edited or cop
 ```text
 packs/
 ├── realistic_sticks_bp/     # behavior pack: items, blocks, loot, and recipes
-└── realistic_sticks_rp/     # resource pack: item atlas, terrain atlas, models, textures
+└── realistic_sticks_rp/     # resource pack: textures, models, mob animations, water flipbooks
 ```
 
 The project has no third-party build dependency:
@@ -95,11 +121,12 @@ The project has no third-party build dependency:
 ```bash
 python3 scripts/generate_pack_content.py
 python3 scripts/generate_textures.py
+python3 scripts/generate_animations.py
 python3 scripts/build_addon.py
 python3 scripts/validate_addon.py
 ```
 
-The build writes an importable `.mcaddon` to `releases/`. The validator checks JSON syntax, manifest UUID wiring, item-to-texture references, block-to-geometry and block-to-loot references, PNG dimensions, recipe identifiers, and the outer `.mcaddon` archive structure.
+The build writes an importable `.mcaddon` to `releases/`. The validator checks JSON syntax, manifest UUID wiring, item-to-texture references, block-to-geometry and block-to-loot references, PNG dimensions, water flipbook size (16×512), animation identifier overrides, recipe identifiers, and the outer `.mcaddon` archive structure.
 
 ## Design notes
 
