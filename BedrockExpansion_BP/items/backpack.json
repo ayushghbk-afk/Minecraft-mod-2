@@ -1,0 +1,33 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "bedrock_expansion:backpack",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "backpack"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "item.bedrock_expansion:backpack.name"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:tags": {
+        "tags": [
+          "bedrock_expansion:catalog_181",
+          "bedrock_expansion:tier_2"
+        ]
+      },
+      "minecraft:glint": false,
+      "minecraft:use_modifiers": {
+        "use_duration": 0.2,
+        "movement_modifier": 0.8
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "bedrock_expansion:deep_crab_spawn_egg"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:egg"
+      },
+      {
+        "item": "bedrock_expansion:crab_claw"
+      }
+    ],
+    "result": {
+      "item": "bedrock_expansion:deep_crab_spawn_egg",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "bedrock_expansion:nether_quartz_shard_from_quartz"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:quartz"
+      }
+    ],
+    "result": {
+      "item": "bedrock_expansion:nether_quartz_shard",
+      "count": 4
+    }
+  }
+}

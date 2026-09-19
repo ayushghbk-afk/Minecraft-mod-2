@@ -1,0 +1,211 @@
+{
+  "format_version": [
+    1,
+    19,
+    0
+  ],
+  "bedrock_expansion:deepslate_crystal": {
+    "textures": "deepslate_crystal",
+    "sound": "metal"
+  },
+  "bedrock_expansion:tin_ore": {
+    "textures": "tin_ore",
+    "sound": "metal"
+  },
+  "bedrock_expansion:silver_ore": {
+    "textures": "silver_ore",
+    "sound": "metal"
+  },
+  "bedrock_expansion:platinum_ore": {
+    "textures": "platinum_ore",
+    "sound": "metal"
+  },
+  "bedrock_expansion:mythril_ore": {
+    "textures": "mythril_ore",
+    "sound": "metal"
+  },
+  "bedrock_expansion:adamantite_ore": {
+    "textures": "adamantite_ore",
+    "sound": "metal"
+  },
+  "bedrock_expansion:voidstone": {
+    "textures": "voidstone",
+    "sound": "metal"
+  },
+  "bedrock_expansion:lumen_crystal": {
+    "textures": "lumen_crystal",
+    "sound": "metal"
+  },
+  "bedrock_expansion:copper_block": {
+    "textures": "copper_block",
+    "sound": "stone"
+  },
+  "bedrock_expansion:silver_block": {
+    "textures": "silver_block",
+    "sound": "stone"
+  },
+  "bedrock_expansion:platinum_block": {
+    "textures": "platinum_block",
+    "sound": "stone"
+  },
+  "bedrock_expansion:mythril_block": {
+    "textures": "mythril_block",
+    "sound": "stone"
+  },
+  "bedrock_expansion:adamantite_block": {
+    "textures": "adamantite_block",
+    "sound": "stone"
+  },
+  "bedrock_expansion:tin_block": {
+    "textures": "tin_block",
+    "sound": "stone"
+  },
+  "bedrock_expansion:lumen_block": {
+    "textures": "lumen_block",
+    "sound": "stone"
+  },
+  "bedrock_expansion:ember_block": {
+    "textures": "ember_block",
+    "sound": "stone"
+  },
+  "bedrock_expansion:frost_block": {
+    "textures": "frost_block",
+    "sound": "stone"
+  },
+  "bedrock_expansion:storm_block": {
+    "textures": "storm_block",
+    "sound": "stone"
+  },
+  "bedrock_expansion:void_block": {
+    "textures": "void_block",
+    "sound": "stone"
+  },
+  "bedrock_expansion:crystal_block": {
+    "textures": "crystal_block",
+    "sound": "stone"
+  },
+  "bedrock_expansion:reinforced_glass": {
+    "textures": "reinforced_glass",
+    "sound": "stone"
+  },
+  "bedrock_expansion:dark_glass": {
+    "textures": "dark_glass",
+    "sound": "stone"
+  },
+  "bedrock_expansion:glowing_concrete": {
+    "textures": "glowing_concrete",
+    "sound": "stone"
+  },
+  "bedrock_expansion:mossy_bricks": {
+    "textures": "mossy_bricks",
+    "sound": "stone"
+  },
+  "bedrock_expansion:cracked_bricks": {
+    "textures": "cracked_bricks",
+    "sound": "stone"
+  },
+  "bedrock_expansion:marble": {
+    "textures": "marble",
+    "sound": "stone"
+  },
+  "bedrock_expansion:polished_marble": {
+    "textures": "polished_marble",
+    "sound": "stone"
+  },
+  "bedrock_expansion:limestone": {
+    "textures": "limestone",
+    "sound": "stone"
+  },
+  "bedrock_expansion:copper_wire": {
+    "textures": "copper_wire",
+    "sound": "metal"
+  },
+  "bedrock_expansion:silver_wire": {
+    "textures": "silver_wire",
+    "sound": "metal"
+  },
+  "bedrock_expansion:logic_gate": {
+    "textures": "logic_gate",
+    "sound": "metal"
+  },
+  "bedrock_expansion:timer_block": {
+    "textures": "timer_block",
+    "sound": "metal"
+  },
+  "bedrock_expansion:pulse_extender": {
+    "textures": "pulse_extender",
+    "sound": "metal"
+  },
+  "bedrock_expansion:item_pipe": {
+    "textures": "item_pipe",
+    "sound": "metal"
+  },
+  "bedrock_expansion:fluid_pipe": {
+    "textures": "fluid_pipe",
+    "sound": "metal"
+  },
+  "bedrock_expansion:energy_cable": {
+    "textures": "energy_cable",
+    "sound": "metal"
+  },
+  "bedrock_expansion:solar_panel": {
+    "textures": "solar_panel",
+    "sound": "metal"
+  },
+  "bedrock_expansion:battery": {
+    "textures": "battery",
+    "sound": "metal"
+  },
+  "bedrock_expansion:generator": {
+    "textures": "generator",
+    "sound": "metal"
+  },
+  "bedrock_expansion:electric_furnace": {
+    "textures": "electric_furnace",
+    "sound": "metal"
+  },
+  "bedrock_expansion:auto_crafting_table": {
+    "textures": "auto_crafting_table",
+    "sound": "metal"
+  },
+  "bedrock_expansion:conveyor_belt": {
+    "textures": "conveyor_belt",
+    "sound": "metal"
+  },
+  "bedrock_expansion:robot_arm": {
+    "textures": "robot_arm",
+    "sound": "metal"
+  },
+  "bedrock_expansion:sensor_block": {
+    "textures": "sensor_block",
+    "sound": "metal"
+  },
+  "bedrock_expansion:speaker_block": {
+    "textures": "speaker_block",
+    "sound": "metal"
+  },
+  "bedrock_expansion:monitor_block": {
+    "textures": "monitor_block",
+    "sound": "metal"
+  },
+  "bedrock_expansion:keyboard_block": {
+    "textures": "keyboard_block",
+    "sound": "metal"
+  },
+  "bedrock_expansion:computer_block": {
+    "textures": "computer_block",
+    "sound": "metal"
+  },
+  "bedrock_expansion:alchemy_table": {
+    "textures": "alchemy_table",
+    "sound": "metal"
+  },
+  "bedrock_expansion:waypoint_stone": {
+    "textures": "waypoint_stone",
+    "sound": "metal"
+  },
+  "bedrock_expansion:portal_frame": {
+    "textures": "portal_frame",
+    "sound": "metal"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "bedrock_expansion:night_vision_goggles"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "G G",
+      "LCL",
+      " C "
+    ],
+    "key": {
+      "G": {
+        "item": "minecraft:glass"
+      },
+      "L": {
+        "item": "bedrock_expansion:lumen_crystal"
+      },
+      "C": {
+        "item": "bedrock_expansion:copper_wire"
+      }
+    },
+    "result": {
+      "item": "bedrock_expansion:night_vision_goggles",
+      "count": 1
+    }
+  }
+}

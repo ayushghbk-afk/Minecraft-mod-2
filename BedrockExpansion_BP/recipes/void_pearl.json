@@ -1,0 +1,23 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "bedrock_expansion:void_pearl"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:ender_pearl"
+      },
+      {
+        "item": "bedrock_expansion:voidstone"
+      }
+    ],
+    "result": {
+      "item": "bedrock_expansion:void_pearl",
+      "count": 1
+    }
+  }
+}

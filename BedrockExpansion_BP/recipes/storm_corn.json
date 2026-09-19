@@ -1,0 +1,23 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "bedrock_expansion:storm_corn"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:wheat"
+      },
+      {
+        "item": "bedrock_expansion:storm_fragment"
+      }
+    ],
+    "result": {
+      "item": "bedrock_expansion:storm_corn",
+      "count": 2
+    }
+  }
+}

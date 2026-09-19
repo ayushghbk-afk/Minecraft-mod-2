@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "bedrock_expansion:void_golem_core",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

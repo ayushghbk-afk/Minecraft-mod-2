@@ -1,0 +1,27 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "bedrock_expansion:waypoint_stone",
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "waypoint_stone",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 5.5
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 11
+      },
+      "minecraft:loot": "loot_tables/blocks/waypoint_stone.json",
+      "minecraft:map_color": "#5b6ba8"
+    }
+  }
+}

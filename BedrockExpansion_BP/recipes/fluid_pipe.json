@@ -1,0 +1,29 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "bedrock_expansion:fluid_pipe"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "bedrock_expansion:tin_ingot"
+      },
+      {
+        "item": "bedrock_expansion:tin_ingot"
+      },
+      {
+        "item": "minecraft:glass"
+      },
+      {
+        "item": "minecraft:iron_ingot"
+      }
+    ],
+    "result": {
+      "item": "bedrock_expansion:fluid_pipe",
+      "count": 2
+    }
+  }
+}

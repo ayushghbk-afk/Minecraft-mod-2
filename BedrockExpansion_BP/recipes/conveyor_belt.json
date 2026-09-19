@@ -1,0 +1,26 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "bedrock_expansion:conveyor_belt"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:leather"
+      },
+      {
+        "item": "minecraft:iron_ingot"
+      },
+      {
+        "item": "bedrock_expansion:copper_wire"
+      }
+    ],
+    "result": {
+      "item": "bedrock_expansion:conveyor_belt",
+      "count": 2
+    }
+  }
+}

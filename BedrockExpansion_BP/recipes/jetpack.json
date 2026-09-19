@@ -1,0 +1,31 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "bedrock_expansion:jetpack"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "MSM",
+      "SES",
+      " E "
+    ],
+    "key": {
+      "M": {
+        "item": "bedrock_expansion:mythril_ingot"
+      },
+      "S": {
+        "item": "bedrock_expansion:storm_fragment"
+      },
+      "E": {
+        "item": "bedrock_expansion:energy_cable"
+      }
+    },
+    "result": {
+      "item": "bedrock_expansion:jetpack",
+      "count": 1
+    }
+  }
+}

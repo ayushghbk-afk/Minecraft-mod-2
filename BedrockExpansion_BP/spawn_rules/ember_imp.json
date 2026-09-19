@@ -1,0 +1,25 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "bedrock_expansion:ember_imp",
+      "population_control": "monster"
+    },
+    "conditions": [
+      {
+        "minecraft:weight": {
+          "default": 15
+        },
+        "minecraft:herd": {
+          "min_size": 1,
+          "max_size": 2
+        },
+        "minecraft:brightness_filter": {
+          "min": 0,
+          "max": 7
+        },
+        "minecraft:spawns_on_surface": {}
+      }
+    ]
+  }
+}

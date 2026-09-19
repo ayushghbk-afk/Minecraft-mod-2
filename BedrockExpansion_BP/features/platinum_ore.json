@@ -1,0 +1,14 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "bedrock_expansion:platinum_ore_feature"
+    },
+    "count": 6,
+    "places_block": "bedrock_expansion:platinum_ore",
+    "may_replace": [
+      "minecraft:stone",
+      "minecraft:deepslate"
+    ]
+  }
+}

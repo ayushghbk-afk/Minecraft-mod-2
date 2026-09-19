@@ -1,0 +1,33 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "bedrock_expansion:boss_key",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "boss_key"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "item.bedrock_expansion:boss_key.name"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:tags": {
+        "tags": [
+          "bedrock_expansion:catalog_196",
+          "bedrock_expansion:tier_5"
+        ]
+      },
+      "minecraft:glint": true,
+      "minecraft:use_modifiers": {
+        "use_duration": 0.2,
+        "movement_modifier": 0.8
+      }
+    }
+  }
+}

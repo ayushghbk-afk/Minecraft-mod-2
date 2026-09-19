@@ -1,0 +1,29 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "bedrock_expansion:auto_crafting_table"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "bedrock_expansion:platinum_ingot"
+      },
+      {
+        "item": "bedrock_expansion:logic_gate"
+      },
+      {
+        "item": "minecraft:crafting_table"
+      },
+      {
+        "item": "bedrock_expansion:computer_block"
+      }
+    ],
+    "result": {
+      "item": "bedrock_expansion:auto_crafting_table",
+      "count": 1
+    }
+  }
+}

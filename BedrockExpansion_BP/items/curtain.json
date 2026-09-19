@@ -1,0 +1,29 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "bedrock_expansion:curtain",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "curtain"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "item.bedrock_expansion:curtain.name"
+      },
+      "minecraft:max_stack_size": 64,
+      "minecraft:tags": {
+        "tags": [
+          "bedrock_expansion:catalog_173",
+          "bedrock_expansion:tier_0"
+        ]
+      },
+      "minecraft:allow_off_hand": true
+    }
+  }
+}

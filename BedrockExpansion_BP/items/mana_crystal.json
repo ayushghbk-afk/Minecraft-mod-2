@@ -1,0 +1,29 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "bedrock_expansion:mana_crystal",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "mana_crystal"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "item.bedrock_expansion:mana_crystal.name"
+      },
+      "minecraft:max_stack_size": 16,
+      "minecraft:tags": {
+        "tags": [
+          "bedrock_expansion:catalog_121",
+          "bedrock_expansion:tier_3"
+        ]
+      },
+      "minecraft:glint": true
+    }
+  }
+}

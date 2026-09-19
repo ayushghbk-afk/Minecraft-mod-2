@@ -1,0 +1,31 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "bedrock_expansion:boss_key"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AVA",
+      "VSV",
+      " A "
+    ],
+    "key": {
+      "A": {
+        "item": "bedrock_expansion:adamantite_ingot"
+      },
+      "V": {
+        "item": "bedrock_expansion:void_pearl"
+      },
+      "S": {
+        "item": "bedrock_expansion:storm_fragment"
+      }
+    },
+    "result": {
+      "item": "bedrock_expansion:boss_key",
+      "count": 1
+    }
+  }
+}

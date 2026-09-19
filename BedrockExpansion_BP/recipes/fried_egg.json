@@ -1,0 +1,23 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "bedrock_expansion:fried_egg"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:egg"
+      },
+      {
+        "item": "bedrock_expansion:butter"
+      }
+    ],
+    "result": {
+      "item": "bedrock_expansion:fried_egg",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "bedrock_expansion:storm_hammer"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "SAS",
+      "SAS",
+      " S "
+    ],
+    "key": {
+      "S": {
+        "item": "bedrock_expansion:storm_fragment"
+      },
+      "A": {
+        "item": "bedrock_expansion:adamantite_ingot"
+      }
+    },
+    "result": {
+      "item": "bedrock_expansion:storm_hammer",
+      "count": 1
+    }
+  }
+}

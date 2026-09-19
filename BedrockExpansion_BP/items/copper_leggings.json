@@ -1,0 +1,39 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "bedrock_expansion:copper_leggings",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "copper_leggings"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "item.bedrock_expansion:copper_leggings.name"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:tags": {
+        "tags": [
+          "bedrock_expansion:catalog_43",
+          "bedrock_expansion:tier_1"
+        ]
+      },
+      "minecraft:wearable": {
+        "slot": "slot.armor.legs",
+        "protection": 5
+      },
+      "minecraft:durability": {
+        "max_durability": 305
+      },
+      "minecraft:enchantable": {
+        "slot": "armor_legs",
+        "value": 12
+      }
+    }
+  }
+}

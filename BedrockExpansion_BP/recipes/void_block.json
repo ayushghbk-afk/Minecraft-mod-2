@@ -1,0 +1,25 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "bedrock_expansion:void_block"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "MMM",
+      "MMM",
+      "MMM"
+    ],
+    "key": {
+      "M": {
+        "item": "bedrock_expansion:voidstone"
+      }
+    },
+    "result": {
+      "item": "bedrock_expansion:void_block",
+      "count": 1
+    }
+  }
+}

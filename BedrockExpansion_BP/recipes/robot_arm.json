@@ -1,0 +1,26 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "bedrock_expansion:robot_arm"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "bedrock_expansion:platinum_ingot"
+      },
+      {
+        "item": "bedrock_expansion:energy_cable"
+      },
+      {
+        "item": "bedrock_expansion:logic_gate"
+      }
+    ],
+    "result": {
+      "item": "bedrock_expansion:robot_arm",
+      "count": 1
+    }
+  }
+}

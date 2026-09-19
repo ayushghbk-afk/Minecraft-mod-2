@@ -1,0 +1,49 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "bedrock_expansion:stone_spear",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "stone_spear"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "item.bedrock_expansion:stone_spear.name"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:tags": {
+        "tags": [
+          "bedrock_expansion:catalog_36",
+          "bedrock_expansion:tier_0"
+        ]
+      },
+      "minecraft:hand_equipped": true,
+      "minecraft:damage": {
+        "value": 3
+      },
+      "minecraft:durability": {
+        "max_durability": 80
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "minecraft:stone"
+            ],
+            "repair_amount": 100
+          }
+        ]
+      },
+      "minecraft:enchantable": {
+        "slot": "sword",
+        "value": 10
+      }
+    }
+  }
+}

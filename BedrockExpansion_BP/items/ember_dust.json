@@ -1,0 +1,32 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "bedrock_expansion:ember_dust",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "ember_dust"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "item.bedrock_expansion:ember_dust.name"
+      },
+      "minecraft:max_stack_size": 64,
+      "minecraft:tags": {
+        "tags": [
+          "bedrock_expansion:catalog_18",
+          "bedrock_expansion:tier_6"
+        ]
+      },
+      "minecraft:allow_off_hand": true,
+      "minecraft:fuel": {
+        "duration": 20
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "bedrock_expansion:oven",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "oven"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "item.bedrock_expansion:oven.name"
+      },
+      "minecraft:max_stack_size": 64,
+      "minecraft:tags": {
+        "tags": [
+          "bedrock_expansion:catalog_176",
+          "bedrock_expansion:tier_1"
+        ]
+      },
+      "minecraft:allow_off_hand": true
+    }
+  }
+}

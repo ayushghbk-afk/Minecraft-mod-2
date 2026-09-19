@@ -1,0 +1,606 @@
+{
+  "resource_pack_name": "bedrock_expansion",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "bedrock_dust": {
+      "textures": "textures/items/bedrock_dust"
+    },
+    "deepslate_crystal": {
+      "textures": "textures/items/deepslate_crystal"
+    },
+    "nether_quartz_shard": {
+      "textures": "textures/items/nether_quartz_shard"
+    },
+    "amethyst_core": {
+      "textures": "textures/items/amethyst_core"
+    },
+    "copper_nugget": {
+      "textures": "textures/items/copper_nugget"
+    },
+    "tin_ore": {
+      "textures": "textures/items/tin_ore"
+    },
+    "tin_ingot": {
+      "textures": "textures/items/tin_ingot"
+    },
+    "silver_ore": {
+      "textures": "textures/items/silver_ore"
+    },
+    "silver_ingot": {
+      "textures": "textures/items/silver_ingot"
+    },
+    "platinum_ore": {
+      "textures": "textures/items/platinum_ore"
+    },
+    "platinum_ingot": {
+      "textures": "textures/items/platinum_ingot"
+    },
+    "mythril_ore": {
+      "textures": "textures/items/mythril_ore"
+    },
+    "mythril_ingot": {
+      "textures": "textures/items/mythril_ingot"
+    },
+    "adamantite_ore": {
+      "textures": "textures/items/adamantite_ore"
+    },
+    "adamantite_ingot": {
+      "textures": "textures/items/adamantite_ingot"
+    },
+    "voidstone": {
+      "textures": "textures/items/voidstone"
+    },
+    "lumen_crystal": {
+      "textures": "textures/items/lumen_crystal"
+    },
+    "ember_dust": {
+      "textures": "textures/items/ember_dust"
+    },
+    "frost_shard": {
+      "textures": "textures/items/frost_shard"
+    },
+    "storm_fragment": {
+      "textures": "textures/items/storm_fragment"
+    },
+    "bedrock_pickaxe": {
+      "textures": "textures/items/bedrock_pickaxe"
+    },
+    "bedrock_axe": {
+      "textures": "textures/items/bedrock_axe"
+    },
+    "bedrock_shovel": {
+      "textures": "textures/items/bedrock_shovel"
+    },
+    "bedrock_hoe": {
+      "textures": "textures/items/bedrock_hoe"
+    },
+    "copper_sword": {
+      "textures": "textures/items/copper_sword"
+    },
+    "silver_sword": {
+      "textures": "textures/items/silver_sword"
+    },
+    "platinum_sword": {
+      "textures": "textures/items/platinum_sword"
+    },
+    "mythril_sword": {
+      "textures": "textures/items/mythril_sword"
+    },
+    "adamantite_sword": {
+      "textures": "textures/items/adamantite_sword"
+    },
+    "void_blade": {
+      "textures": "textures/items/void_blade"
+    },
+    "lumen_bow": {
+      "textures": "textures/items/lumen_bow"
+    },
+    "ember_crossbow": {
+      "textures": "textures/items/ember_crossbow"
+    },
+    "frost_trident": {
+      "textures": "textures/items/frost_trident"
+    },
+    "storm_hammer": {
+      "textures": "textures/items/storm_hammer"
+    },
+    "crystal_dagger": {
+      "textures": "textures/items/crystal_dagger"
+    },
+    "stone_spear": {
+      "textures": "textures/items/stone_spear"
+    },
+    "chainsaw": {
+      "textures": "textures/items/chainsaw"
+    },
+    "drill": {
+      "textures": "textures/items/drill"
+    },
+    "scythe": {
+      "textures": "textures/items/scythe"
+    },
+    "war_axe": {
+      "textures": "textures/items/war_axe"
+    },
+    "copper_helmet": {
+      "textures": "textures/items/copper_helmet"
+    },
+    "copper_chestplate": {
+      "textures": "textures/items/copper_chestplate"
+    },
+    "copper_leggings": {
+      "textures": "textures/items/copper_leggings"
+    },
+    "copper_boots": {
+      "textures": "textures/items/copper_boots"
+    },
+    "silver_helmet": {
+      "textures": "textures/items/silver_helmet"
+    },
+    "silver_chestplate": {
+      "textures": "textures/items/silver_chestplate"
+    },
+    "silver_leggings": {
+      "textures": "textures/items/silver_leggings"
+    },
+    "silver_boots": {
+      "textures": "textures/items/silver_boots"
+    },
+    "platinum_helmet": {
+      "textures": "textures/items/platinum_helmet"
+    },
+    "platinum_chestplate": {
+      "textures": "textures/items/platinum_chestplate"
+    },
+    "platinum_leggings": {
+      "textures": "textures/items/platinum_leggings"
+    },
+    "platinum_boots": {
+      "textures": "textures/items/platinum_boots"
+    },
+    "mythril_helmet": {
+      "textures": "textures/items/mythril_helmet"
+    },
+    "mythril_chestplate": {
+      "textures": "textures/items/mythril_chestplate"
+    },
+    "mythril_leggings": {
+      "textures": "textures/items/mythril_leggings"
+    },
+    "mythril_boots": {
+      "textures": "textures/items/mythril_boots"
+    },
+    "adamantite_helmet": {
+      "textures": "textures/items/adamantite_helmet"
+    },
+    "adamantite_chestplate": {
+      "textures": "textures/items/adamantite_chestplate"
+    },
+    "adamantite_leggings": {
+      "textures": "textures/items/adamantite_leggings"
+    },
+    "adamantite_boots": {
+      "textures": "textures/items/adamantite_boots"
+    },
+    "golden_apple_pie": {
+      "textures": "textures/items/golden_apple_pie"
+    },
+    "copper_carrot": {
+      "textures": "textures/items/copper_carrot"
+    },
+    "silver_beetroot": {
+      "textures": "textures/items/silver_beetroot"
+    },
+    "platinum_potato": {
+      "textures": "textures/items/platinum_potato"
+    },
+    "mythril_bread": {
+      "textures": "textures/items/mythril_bread"
+    },
+    "adamantite_stew": {
+      "textures": "textures/items/adamantite_stew"
+    },
+    "lumen_berry": {
+      "textures": "textures/items/lumen_berry"
+    },
+    "ember_pepper": {
+      "textures": "textures/items/ember_pepper"
+    },
+    "frost_melon": {
+      "textures": "textures/items/frost_melon"
+    },
+    "storm_corn": {
+      "textures": "textures/items/storm_corn"
+    },
+    "void_fruit": {
+      "textures": "textures/items/void_fruit"
+    },
+    "crystal_grapes": {
+      "textures": "textures/items/crystal_grapes"
+    },
+    "honey_cookie": {
+      "textures": "textures/items/honey_cookie"
+    },
+    "chocolate_bar": {
+      "textures": "textures/items/chocolate_bar"
+    },
+    "cheese_wheel": {
+      "textures": "textures/items/cheese_wheel"
+    },
+    "butter": {
+      "textures": "textures/items/butter"
+    },
+    "fried_egg": {
+      "textures": "textures/items/fried_egg"
+    },
+    "bacon_strip": {
+      "textures": "textures/items/bacon_strip"
+    },
+    "fish_stew": {
+      "textures": "textures/items/fish_stew"
+    },
+    "magic_cake": {
+      "textures": "textures/items/magic_cake"
+    },
+    "copper_block": {
+      "textures": "textures/items/copper_block"
+    },
+    "silver_block": {
+      "textures": "textures/items/silver_block"
+    },
+    "platinum_block": {
+      "textures": "textures/items/platinum_block"
+    },
+    "mythril_block": {
+      "textures": "textures/items/mythril_block"
+    },
+    "adamantite_block": {
+      "textures": "textures/items/adamantite_block"
+    },
+    "tin_block": {
+      "textures": "textures/items/tin_block"
+    },
+    "lumen_block": {
+      "textures": "textures/items/lumen_block"
+    },
+    "ember_block": {
+      "textures": "textures/items/ember_block"
+    },
+    "frost_block": {
+      "textures": "textures/items/frost_block"
+    },
+    "storm_block": {
+      "textures": "textures/items/storm_block"
+    },
+    "void_block": {
+      "textures": "textures/items/void_block"
+    },
+    "crystal_block": {
+      "textures": "textures/items/crystal_block"
+    },
+    "reinforced_glass": {
+      "textures": "textures/items/reinforced_glass"
+    },
+    "dark_glass": {
+      "textures": "textures/items/dark_glass"
+    },
+    "glowing_concrete": {
+      "textures": "textures/items/glowing_concrete"
+    },
+    "mossy_bricks": {
+      "textures": "textures/items/mossy_bricks"
+    },
+    "cracked_bricks": {
+      "textures": "textures/items/cracked_bricks"
+    },
+    "marble": {
+      "textures": "textures/items/marble"
+    },
+    "polished_marble": {
+      "textures": "textures/items/polished_marble"
+    },
+    "limestone": {
+      "textures": "textures/items/limestone"
+    },
+    "copper_wire": {
+      "textures": "textures/items/copper_wire"
+    },
+    "silver_wire": {
+      "textures": "textures/items/silver_wire"
+    },
+    "logic_gate": {
+      "textures": "textures/items/logic_gate"
+    },
+    "timer_block": {
+      "textures": "textures/items/timer_block"
+    },
+    "pulse_extender": {
+      "textures": "textures/items/pulse_extender"
+    },
+    "item_pipe": {
+      "textures": "textures/items/item_pipe"
+    },
+    "fluid_pipe": {
+      "textures": "textures/items/fluid_pipe"
+    },
+    "energy_cable": {
+      "textures": "textures/items/energy_cable"
+    },
+    "solar_panel": {
+      "textures": "textures/items/solar_panel"
+    },
+    "battery": {
+      "textures": "textures/items/battery"
+    },
+    "generator": {
+      "textures": "textures/items/generator"
+    },
+    "electric_furnace": {
+      "textures": "textures/items/electric_furnace"
+    },
+    "auto_crafting_table": {
+      "textures": "textures/items/auto_crafting_table"
+    },
+    "conveyor_belt": {
+      "textures": "textures/items/conveyor_belt"
+    },
+    "robot_arm": {
+      "textures": "textures/items/robot_arm"
+    },
+    "sensor_block": {
+      "textures": "textures/items/sensor_block"
+    },
+    "speaker_block": {
+      "textures": "textures/items/speaker_block"
+    },
+    "monitor_block": {
+      "textures": "textures/items/monitor_block"
+    },
+    "keyboard_block": {
+      "textures": "textures/items/keyboard_block"
+    },
+    "computer_block": {
+      "textures": "textures/items/computer_block"
+    },
+    "mana_crystal": {
+      "textures": "textures/items/mana_crystal"
+    },
+    "spell_book": {
+      "textures": "textures/items/spell_book"
+    },
+    "fire_spell": {
+      "textures": "textures/items/fire_spell"
+    },
+    "ice_spell": {
+      "textures": "textures/items/ice_spell"
+    },
+    "lightning_spell": {
+      "textures": "textures/items/lightning_spell"
+    },
+    "healing_spell": {
+      "textures": "textures/items/healing_spell"
+    },
+    "teleport_spell": {
+      "textures": "textures/items/teleport_spell"
+    },
+    "shield_spell": {
+      "textures": "textures/items/shield_spell"
+    },
+    "summon_spell": {
+      "textures": "textures/items/summon_spell"
+    },
+    "enchantment_orb": {
+      "textures": "textures/items/enchantment_orb"
+    },
+    "rune_stone": {
+      "textures": "textures/items/rune_stone"
+    },
+    "magic_wand": {
+      "textures": "textures/items/magic_wand"
+    },
+    "staff_of_fire": {
+      "textures": "textures/items/staff_of_fire"
+    },
+    "staff_of_ice": {
+      "textures": "textures/items/staff_of_ice"
+    },
+    "staff_of_storms": {
+      "textures": "textures/items/staff_of_storms"
+    },
+    "staff_of_life": {
+      "textures": "textures/items/staff_of_life"
+    },
+    "soul_gem": {
+      "textures": "textures/items/soul_gem"
+    },
+    "void_pearl": {
+      "textures": "textures/items/void_pearl"
+    },
+    "celestial_shard": {
+      "textures": "textures/items/celestial_shard"
+    },
+    "alchemy_table": {
+      "textures": "textures/items/alchemy_table"
+    },
+    "copper_golem_spawn_egg": {
+      "textures": "textures/items/copper_golem_spawn_egg"
+    },
+    "silver_golem_spawn_egg": {
+      "textures": "textures/items/silver_golem_spawn_egg"
+    },
+    "crystal_golem_spawn_egg": {
+      "textures": "textures/items/crystal_golem_spawn_egg"
+    },
+    "void_golem_spawn_egg": {
+      "textures": "textures/items/void_golem_spawn_egg"
+    },
+    "ember_imp_spawn_egg": {
+      "textures": "textures/items/ember_imp_spawn_egg"
+    },
+    "frost_wolf_spawn_egg": {
+      "textures": "textures/items/frost_wolf_spawn_egg"
+    },
+    "storm_eagle_spawn_egg": {
+      "textures": "textures/items/storm_eagle_spawn_egg"
+    },
+    "lumen_fairy_spawn_egg": {
+      "textures": "textures/items/lumen_fairy_spawn_egg"
+    },
+    "cave_lurker_spawn_egg": {
+      "textures": "textures/items/cave_lurker_spawn_egg"
+    },
+    "deep_crab_spawn_egg": {
+      "textures": "textures/items/deep_crab_spawn_egg"
+    },
+    "copper_golem_core": {
+      "textures": "textures/items/copper_golem_core"
+    },
+    "silver_golem_core": {
+      "textures": "textures/items/silver_golem_core"
+    },
+    "crystal_golem_core": {
+      "textures": "textures/items/crystal_golem_core"
+    },
+    "void_golem_core": {
+      "textures": "textures/items/void_golem_core"
+    },
+    "ember_essence": {
+      "textures": "textures/items/ember_essence"
+    },
+    "frost_fur": {
+      "textures": "textures/items/frost_fur"
+    },
+    "storm_feather": {
+      "textures": "textures/items/storm_feather"
+    },
+    "lumen_dust": {
+      "textures": "textures/items/lumen_dust"
+    },
+    "lurker_eye": {
+      "textures": "textures/items/lurker_eye"
+    },
+    "crab_claw": {
+      "textures": "textures/items/crab_claw"
+    },
+    "wooden_chair": {
+      "textures": "textures/items/wooden_chair"
+    },
+    "wooden_table": {
+      "textures": "textures/items/wooden_table"
+    },
+    "wooden_bed": {
+      "textures": "textures/items/wooden_bed"
+    },
+    "sofa": {
+      "textures": "textures/items/sofa"
+    },
+    "bookshelf": {
+      "textures": "textures/items/bookshelf"
+    },
+    "lamp": {
+      "textures": "textures/items/lamp"
+    },
+    "ceiling_light": {
+      "textures": "textures/items/ceiling_light"
+    },
+    "wall_clock": {
+      "textures": "textures/items/wall_clock"
+    },
+    "painting_frame": {
+      "textures": "textures/items/painting_frame"
+    },
+    "vase": {
+      "textures": "textures/items/vase"
+    },
+    "large_flower_pot": {
+      "textures": "textures/items/large_flower_pot"
+    },
+    "rug": {
+      "textures": "textures/items/rug"
+    },
+    "curtain": {
+      "textures": "textures/items/curtain"
+    },
+    "fireplace": {
+      "textures": "textures/items/fireplace"
+    },
+    "kitchen_counter": {
+      "textures": "textures/items/kitchen_counter"
+    },
+    "oven": {
+      "textures": "textures/items/oven"
+    },
+    "refrigerator": {
+      "textures": "textures/items/refrigerator"
+    },
+    "toilet": {
+      "textures": "textures/items/toilet"
+    },
+    "bathtub": {
+      "textures": "textures/items/bathtub"
+    },
+    "sink": {
+      "textures": "textures/items/sink"
+    },
+    "backpack": {
+      "textures": "textures/items/backpack"
+    },
+    "large_backpack": {
+      "textures": "textures/items/large_backpack"
+    },
+    "ender_backpack": {
+      "textures": "textures/items/ender_backpack"
+    },
+    "map_marker": {
+      "textures": "textures/items/map_marker"
+    },
+    "compass_upgrade": {
+      "textures": "textures/items/compass_upgrade"
+    },
+    "clock_upgrade": {
+      "textures": "textures/items/clock_upgrade"
+    },
+    "lantern_helmet": {
+      "textures": "textures/items/lantern_helmet"
+    },
+    "night_vision_goggles": {
+      "textures": "textures/items/night_vision_goggles"
+    },
+    "scuba_helmet": {
+      "textures": "textures/items/scuba_helmet"
+    },
+    "jetpack": {
+      "textures": "textures/items/jetpack"
+    },
+    "parachute": {
+      "textures": "textures/items/parachute"
+    },
+    "grappling_hook": {
+      "textures": "textures/items/grappling_hook"
+    },
+    "lockpick": {
+      "textures": "textures/items/lockpick"
+    },
+    "key": {
+      "textures": "textures/items/key"
+    },
+    "treasure_map": {
+      "textures": "textures/items/treasure_map"
+    },
+    "boss_key": {
+      "textures": "textures/items/boss_key"
+    },
+    "dungeon_compass": {
+      "textures": "textures/items/dungeon_compass"
+    },
+    "waypoint_stone": {
+      "textures": "textures/items/waypoint_stone"
+    },
+    "portal_frame": {
+      "textures": "textures/items/portal_frame"
+    },
+    "portal_activator": {
+      "textures": "textures/items/portal_activator"
+    }
+  }
+}

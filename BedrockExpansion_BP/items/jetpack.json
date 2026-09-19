@@ -1,0 +1,37 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "bedrock_expansion:jetpack",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "jetpack"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "item.bedrock_expansion:jetpack.name"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:tags": {
+        "tags": [
+          "bedrock_expansion:catalog_190",
+          "bedrock_expansion:tier_5"
+        ]
+      },
+      "minecraft:glint": false,
+      "minecraft:use_modifiers": {
+        "use_duration": 0.2,
+        "movement_modifier": 0.8
+      },
+      "minecraft:cooldown": {
+        "category": "bedrock_expansion:jetpack_cooldown",
+        "duration": 1.0
+      }
+    }
+  }
+}

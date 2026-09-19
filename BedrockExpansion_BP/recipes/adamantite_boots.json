@@ -1,0 +1,24 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "bedrock_expansion:adamantite_boots"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "M M",
+      "M M"
+    ],
+    "key": {
+      "M": {
+        "item": "bedrock_expansion:adamantite_ingot"
+      }
+    },
+    "result": {
+      "item": "bedrock_expansion:adamantite_boots",
+      "count": 1
+    }
+  }
+}

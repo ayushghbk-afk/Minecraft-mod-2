@@ -1,0 +1,28 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "bedrock_expansion:scythe"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "SS ",
+      " IS",
+      " I "
+    ],
+    "key": {
+      "S": {
+        "item": "bedrock_expansion:silver_ingot"
+      },
+      "I": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "bedrock_expansion:scythe",
+      "count": 1
+    }
+  }
+}

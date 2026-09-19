@@ -1,0 +1,32 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "bedrock_expansion:deep_crab_spawn_egg",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "deep_crab_spawn_egg"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "item.bedrock_expansion:deep_crab_spawn_egg.name"
+      },
+      "minecraft:max_stack_size": 16,
+      "minecraft:tags": {
+        "tags": [
+          "bedrock_expansion:catalog_150",
+          "bedrock_expansion:tier_2"
+        ]
+      },
+      "minecraft:entity_placer": {
+        "entity": "bedrock_expansion:deep_crab"
+      },
+      "minecraft:glint": true
+    }
+  }
+}

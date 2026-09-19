@@ -1,0 +1,1609 @@
+{
+  "project": "Bedrock Expansion: 200 Items",
+  "entries": [
+    {
+      "number": 1,
+      "category": "Ores & Materials",
+      "name": "Bedrock Dust",
+      "id": "bedrock_dust",
+      "identifier": "bedrock_expansion:bedrock_dust"
+    },
+    {
+      "number": 2,
+      "category": "Ores & Materials",
+      "name": "Deepslate Crystal",
+      "id": "deepslate_crystal",
+      "identifier": "bedrock_expansion:deepslate_crystal"
+    },
+    {
+      "number": 3,
+      "category": "Ores & Materials",
+      "name": "Nether Quartz Shard",
+      "id": "nether_quartz_shard",
+      "identifier": "bedrock_expansion:nether_quartz_shard"
+    },
+    {
+      "number": 4,
+      "category": "Ores & Materials",
+      "name": "Amethyst Core",
+      "id": "amethyst_core",
+      "identifier": "bedrock_expansion:amethyst_core"
+    },
+    {
+      "number": 5,
+      "category": "Ores & Materials",
+      "name": "Copper Nugget",
+      "id": "copper_nugget",
+      "identifier": "bedrock_expansion:copper_nugget"
+    },
+    {
+      "number": 6,
+      "category": "Ores & Materials",
+      "name": "Tin Ore",
+      "id": "tin_ore",
+      "identifier": "bedrock_expansion:tin_ore"
+    },
+    {
+      "number": 7,
+      "category": "Ores & Materials",
+      "name": "Tin Ingot",
+      "id": "tin_ingot",
+      "identifier": "bedrock_expansion:tin_ingot"
+    },
+    {
+      "number": 8,
+      "category": "Ores & Materials",
+      "name": "Silver Ore",
+      "id": "silver_ore",
+      "identifier": "bedrock_expansion:silver_ore"
+    },
+    {
+      "number": 9,
+      "category": "Ores & Materials",
+      "name": "Silver Ingot",
+      "id": "silver_ingot",
+      "identifier": "bedrock_expansion:silver_ingot"
+    },
+    {
+      "number": 10,
+      "category": "Ores & Materials",
+      "name": "Platinum Ore",
+      "id": "platinum_ore",
+      "identifier": "bedrock_expansion:platinum_ore"
+    },
+    {
+      "number": 11,
+      "category": "Ores & Materials",
+      "name": "Platinum Ingot",
+      "id": "platinum_ingot",
+      "identifier": "bedrock_expansion:platinum_ingot"
+    },
+    {
+      "number": 12,
+      "category": "Ores & Materials",
+      "name": "Mythril Ore",
+      "id": "mythril_ore",
+      "identifier": "bedrock_expansion:mythril_ore"
+    },
+    {
+      "number": 13,
+      "category": "Ores & Materials",
+      "name": "Mythril Ingot",
+      "id": "mythril_ingot",
+      "identifier": "bedrock_expansion:mythril_ingot"
+    },
+    {
+      "number": 14,
+      "category": "Ores & Materials",
+      "name": "Adamantite Ore",
+      "id": "adamantite_ore",
+      "identifier": "bedrock_expansion:adamantite_ore"
+    },
+    {
+      "number": 15,
+      "category": "Ores & Materials",
+      "name": "Adamantite Ingot",
+      "id": "adamantite_ingot",
+      "identifier": "bedrock_expansion:adamantite_ingot"
+    },
+    {
+      "number": 16,
+      "category": "Ores & Materials",
+      "name": "Voidstone",
+      "id": "voidstone",
+      "identifier": "bedrock_expansion:voidstone"
+    },
+    {
+      "number": 17,
+      "category": "Ores & Materials",
+      "name": "Lumen Crystal",
+      "id": "lumen_crystal",
+      "identifier": "bedrock_expansion:lumen_crystal"
+    },
+    {
+      "number": 18,
+      "category": "Ores & Materials",
+      "name": "Ember Dust",
+      "id": "ember_dust",
+      "identifier": "bedrock_expansion:ember_dust"
+    },
+    {
+      "number": 19,
+      "category": "Ores & Materials",
+      "name": "Frost Shard",
+      "id": "frost_shard",
+      "identifier": "bedrock_expansion:frost_shard"
+    },
+    {
+      "number": 20,
+      "category": "Ores & Materials",
+      "name": "Storm Fragment",
+      "id": "storm_fragment",
+      "identifier": "bedrock_expansion:storm_fragment"
+    },
+    {
+      "number": 21,
+      "category": "Tools & Weapons",
+      "name": "Bedrock Pickaxe",
+      "id": "bedrock_pickaxe",
+      "identifier": "bedrock_expansion:bedrock_pickaxe"
+    },
+    {
+      "number": 22,
+      "category": "Tools & Weapons",
+      "name": "Bedrock Axe",
+      "id": "bedrock_axe",
+      "identifier": "bedrock_expansion:bedrock_axe"
+    },
+    {
+      "number": 23,
+      "category": "Tools & Weapons",
+      "name": "Bedrock Shovel",
+      "id": "bedrock_shovel",
+      "identifier": "bedrock_expansion:bedrock_shovel"
+    },
+    {
+      "number": 24,
+      "category": "Tools & Weapons",
+      "name": "Bedrock Hoe",
+      "id": "bedrock_hoe",
+      "identifier": "bedrock_expansion:bedrock_hoe"
+    },
+    {
+      "number": 25,
+      "category": "Tools & Weapons",
+      "name": "Copper Sword",
+      "id": "copper_sword",
+      "identifier": "bedrock_expansion:copper_sword"
+    },
+    {
+      "number": 26,
+      "category": "Tools & Weapons",
+      "name": "Silver Sword",
+      "id": "silver_sword",
+      "identifier": "bedrock_expansion:silver_sword"
+    },
+    {
+      "number": 27,
+      "category": "Tools & Weapons",
+      "name": "Platinum Sword",
+      "id": "platinum_sword",
+      "identifier": "bedrock_expansion:platinum_sword"
+    },
+    {
+      "number": 28,
+      "category": "Tools & Weapons",
+      "name": "Mythril Sword",
+      "id": "mythril_sword",
+      "identifier": "bedrock_expansion:mythril_sword"
+    },
+    {
+      "number": 29,
+      "category": "Tools & Weapons",
+      "name": "Adamantite Sword",
+      "id": "adamantite_sword",
+      "identifier": "bedrock_expansion:adamantite_sword"
+    },
+    {
+      "number": 30,
+      "category": "Tools & Weapons",
+      "name": "Void Blade",
+      "id": "void_blade",
+      "identifier": "bedrock_expansion:void_blade"
+    },
+    {
+      "number": 31,
+      "category": "Tools & Weapons",
+      "name": "Lumen Bow",
+      "id": "lumen_bow",
+      "identifier": "bedrock_expansion:lumen_bow"
+    },
+    {
+      "number": 32,
+      "category": "Tools & Weapons",
+      "name": "Ember Crossbow",
+      "id": "ember_crossbow",
+      "identifier": "bedrock_expansion:ember_crossbow"
+    },
+    {
+      "number": 33,
+      "category": "Tools & Weapons",
+      "name": "Frost Trident",
+      "id": "frost_trident",
+      "identifier": "bedrock_expansion:frost_trident"
+    },
+    {
+      "number": 34,
+      "category": "Tools & Weapons",
+      "name": "Storm Hammer",
+      "id": "storm_hammer",
+      "identifier": "bedrock_expansion:storm_hammer"
+    },
+    {
+      "number": 35,
+      "category": "Tools & Weapons",
+      "name": "Crystal Dagger",
+      "id": "crystal_dagger",
+      "identifier": "bedrock_expansion:crystal_dagger"
+    },
+    {
+      "number": 36,
+      "category": "Tools & Weapons",
+      "name": "Stone Spear",
+      "id": "stone_spear",
+      "identifier": "bedrock_expansion:stone_spear"
+    },
+    {
+      "number": 37,
+      "category": "Tools & Weapons",
+      "name": "Chainsaw",
+      "id": "chainsaw",
+      "identifier": "bedrock_expansion:chainsaw"
+    },
+    {
+      "number": 38,
+      "category": "Tools & Weapons",
+      "name": "Drill",
+      "id": "drill",
+      "identifier": "bedrock_expansion:drill"
+    },
+    {
+      "number": 39,
+      "category": "Tools & Weapons",
+      "name": "Scythe",
+      "id": "scythe",
+      "identifier": "bedrock_expansion:scythe"
+    },
+    {
+      "number": 40,
+      "category": "Tools & Weapons",
+      "name": "War Axe",
+      "id": "war_axe",
+      "identifier": "bedrock_expansion:war_axe"
+    },
+    {
+      "number": 41,
+      "category": "Armor & Wearables",
+      "name": "Copper Helmet",
+      "id": "copper_helmet",
+      "identifier": "bedrock_expansion:copper_helmet"
+    },
+    {
+      "number": 42,
+      "category": "Armor & Wearables",
+      "name": "Copper Chestplate",
+      "id": "copper_chestplate",
+      "identifier": "bedrock_expansion:copper_chestplate"
+    },
+    {
+      "number": 43,
+      "category": "Armor & Wearables",
+      "name": "Copper Leggings",
+      "id": "copper_leggings",
+      "identifier": "bedrock_expansion:copper_leggings"
+    },
+    {
+      "number": 44,
+      "category": "Armor & Wearables",
+      "name": "Copper Boots",
+      "id": "copper_boots",
+      "identifier": "bedrock_expansion:copper_boots"
+    },
+    {
+      "number": 45,
+      "category": "Armor & Wearables",
+      "name": "Silver Helmet",
+      "id": "silver_helmet",
+      "identifier": "bedrock_expansion:silver_helmet"
+    },
+    {
+      "number": 46,
+      "category": "Armor & Wearables",
+      "name": "Silver Chestplate",
+      "id": "silver_chestplate",
+      "identifier": "bedrock_expansion:silver_chestplate"
+    },
+    {
+      "number": 47,
+      "category": "Armor & Wearables",
+      "name": "Silver Leggings",
+      "id": "silver_leggings",
+      "identifier": "bedrock_expansion:silver_leggings"
+    },
+    {
+      "number": 48,
+      "category": "Armor & Wearables",
+      "name": "Silver Boots",
+      "id": "silver_boots",
+      "identifier": "bedrock_expansion:silver_boots"
+    },
+    {
+      "number": 49,
+      "category": "Armor & Wearables",
+      "name": "Platinum Helmet",
+      "id": "platinum_helmet",
+      "identifier": "bedrock_expansion:platinum_helmet"
+    },
+    {
+      "number": 50,
+      "category": "Armor & Wearables",
+      "name": "Platinum Chestplate",
+      "id": "platinum_chestplate",
+      "identifier": "bedrock_expansion:platinum_chestplate"
+    },
+    {
+      "number": 51,
+      "category": "Armor & Wearables",
+      "name": "Platinum Leggings",
+      "id": "platinum_leggings",
+      "identifier": "bedrock_expansion:platinum_leggings"
+    },
+    {
+      "number": 52,
+      "category": "Armor & Wearables",
+      "name": "Platinum Boots",
+      "id": "platinum_boots",
+      "identifier": "bedrock_expansion:platinum_boots"
+    },
+    {
+      "number": 53,
+      "category": "Armor & Wearables",
+      "name": "Mythril Helmet",
+      "id": "mythril_helmet",
+      "identifier": "bedrock_expansion:mythril_helmet"
+    },
+    {
+      "number": 54,
+      "category": "Armor & Wearables",
+      "name": "Mythril Chestplate",
+      "id": "mythril_chestplate",
+      "identifier": "bedrock_expansion:mythril_chestplate"
+    },
+    {
+      "number": 55,
+      "category": "Armor & Wearables",
+      "name": "Mythril Leggings",
+      "id": "mythril_leggings",
+      "identifier": "bedrock_expansion:mythril_leggings"
+    },
+    {
+      "number": 56,
+      "category": "Armor & Wearables",
+      "name": "Mythril Boots",
+      "id": "mythril_boots",
+      "identifier": "bedrock_expansion:mythril_boots"
+    },
+    {
+      "number": 57,
+      "category": "Armor & Wearables",
+      "name": "Adamantite Helmet",
+      "id": "adamantite_helmet",
+      "identifier": "bedrock_expansion:adamantite_helmet"
+    },
+    {
+      "number": 58,
+      "category": "Armor & Wearables",
+      "name": "Adamantite Chestplate",
+      "id": "adamantite_chestplate",
+      "identifier": "bedrock_expansion:adamantite_chestplate"
+    },
+    {
+      "number": 59,
+      "category": "Armor & Wearables",
+      "name": "Adamantite Leggings",
+      "id": "adamantite_leggings",
+      "identifier": "bedrock_expansion:adamantite_leggings"
+    },
+    {
+      "number": 60,
+      "category": "Armor & Wearables",
+      "name": "Adamantite Boots",
+      "id": "adamantite_boots",
+      "identifier": "bedrock_expansion:adamantite_boots"
+    },
+    {
+      "number": 61,
+      "category": "Food & Farming",
+      "name": "Golden Apple Pie",
+      "id": "golden_apple_pie",
+      "identifier": "bedrock_expansion:golden_apple_pie"
+    },
+    {
+      "number": 62,
+      "category": "Food & Farming",
+      "name": "Copper Carrot",
+      "id": "copper_carrot",
+      "identifier": "bedrock_expansion:copper_carrot"
+    },
+    {
+      "number": 63,
+      "category": "Food & Farming",
+      "name": "Silver Beetroot",
+      "id": "silver_beetroot",
+      "identifier": "bedrock_expansion:silver_beetroot"
+    },
+    {
+      "number": 64,
+      "category": "Food & Farming",
+      "name": "Platinum Potato",
+      "id": "platinum_potato",
+      "identifier": "bedrock_expansion:platinum_potato"
+    },
+    {
+      "number": 65,
+      "category": "Food & Farming",
+      "name": "Mythril Bread",
+      "id": "mythril_bread",
+      "identifier": "bedrock_expansion:mythril_bread"
+    },
+    {
+      "number": 66,
+      "category": "Food & Farming",
+      "name": "Adamantite Stew",
+      "id": "adamantite_stew",
+      "identifier": "bedrock_expansion:adamantite_stew"
+    },
+    {
+      "number": 67,
+      "category": "Food & Farming",
+      "name": "Lumen Berry",
+      "id": "lumen_berry",
+      "identifier": "bedrock_expansion:lumen_berry"
+    },
+    {
+      "number": 68,
+      "category": "Food & Farming",
+      "name": "Ember Pepper",
+      "id": "ember_pepper",
+      "identifier": "bedrock_expansion:ember_pepper"
+    },
+    {
+      "number": 69,
+      "category": "Food & Farming",
+      "name": "Frost Melon",
+      "id": "frost_melon",
+      "identifier": "bedrock_expansion:frost_melon"
+    },
+    {
+      "number": 70,
+      "category": "Food & Farming",
+      "name": "Storm Corn",
+      "id": "storm_corn",
+      "identifier": "bedrock_expansion:storm_corn"
+    },
+    {
+      "number": 71,
+      "category": "Food & Farming",
+      "name": "Void Fruit",
+      "id": "void_fruit",
+      "identifier": "bedrock_expansion:void_fruit"
+    },
+    {
+      "number": 72,
+      "category": "Food & Farming",
+      "name": "Crystal Grapes",
+      "id": "crystal_grapes",
+      "identifier": "bedrock_expansion:crystal_grapes"
+    },
+    {
+      "number": 73,
+      "category": "Food & Farming",
+      "name": "Honey Cookie",
+      "id": "honey_cookie",
+      "identifier": "bedrock_expansion:honey_cookie"
+    },
+    {
+      "number": 74,
+      "category": "Food & Farming",
+      "name": "Chocolate Bar",
+      "id": "chocolate_bar",
+      "identifier": "bedrock_expansion:chocolate_bar"
+    },
+    {
+      "number": 75,
+      "category": "Food & Farming",
+      "name": "Cheese Wheel",
+      "id": "cheese_wheel",
+      "identifier": "bedrock_expansion:cheese_wheel"
+    },
+    {
+      "number": 76,
+      "category": "Food & Farming",
+      "name": "Butter",
+      "id": "butter",
+      "identifier": "bedrock_expansion:butter"
+    },
+    {
+      "number": 77,
+      "category": "Food & Farming",
+      "name": "Fried Egg",
+      "id": "fried_egg",
+      "identifier": "bedrock_expansion:fried_egg"
+    },
+    {
+      "number": 78,
+      "category": "Food & Farming",
+      "name": "Bacon Strip",
+      "id": "bacon_strip",
+      "identifier": "bedrock_expansion:bacon_strip"
+    },
+    {
+      "number": 79,
+      "category": "Food & Farming",
+      "name": "Fish Stew",
+      "id": "fish_stew",
+      "identifier": "bedrock_expansion:fish_stew"
+    },
+    {
+      "number": 80,
+      "category": "Food & Farming",
+      "name": "Magic Cake",
+      "id": "magic_cake",
+      "identifier": "bedrock_expansion:magic_cake"
+    },
+    {
+      "number": 81,
+      "category": "Blocks & Building",
+      "name": "Copper Block",
+      "id": "copper_block",
+      "identifier": "bedrock_expansion:copper_block"
+    },
+    {
+      "number": 82,
+      "category": "Blocks & Building",
+      "name": "Silver Block",
+      "id": "silver_block",
+      "identifier": "bedrock_expansion:silver_block"
+    },
+    {
+      "number": 83,
+      "category": "Blocks & Building",
+      "name": "Platinum Block",
+      "id": "platinum_block",
+      "identifier": "bedrock_expansion:platinum_block"
+    },
+    {
+      "number": 84,
+      "category": "Blocks & Building",
+      "name": "Mythril Block",
+      "id": "mythril_block",
+      "identifier": "bedrock_expansion:mythril_block"
+    },
+    {
+      "number": 85,
+      "category": "Blocks & Building",
+      "name": "Adamantite Block",
+      "id": "adamantite_block",
+      "identifier": "bedrock_expansion:adamantite_block"
+    },
+    {
+      "number": 86,
+      "category": "Blocks & Building",
+      "name": "Tin Block",
+      "id": "tin_block",
+      "identifier": "bedrock_expansion:tin_block"
+    },
+    {
+      "number": 87,
+      "category": "Blocks & Building",
+      "name": "Lumen Block",
+      "id": "lumen_block",
+      "identifier": "bedrock_expansion:lumen_block"
+    },
+    {
+      "number": 88,
+      "category": "Blocks & Building",
+      "name": "Ember Block",
+      "id": "ember_block",
+      "identifier": "bedrock_expansion:ember_block"
+    },
+    {
+      "number": 89,
+      "category": "Blocks & Building",
+      "name": "Frost Block",
+      "id": "frost_block",
+      "identifier": "bedrock_expansion:frost_block"
+    },
+    {
+      "number": 90,
+      "category": "Blocks & Building",
+      "name": "Storm Block",
+      "id": "storm_block",
+      "identifier": "bedrock_expansion:storm_block"
+    },
+    {
+      "number": 91,
+      "category": "Blocks & Building",
+      "name": "Void Block",
+      "id": "void_block",
+      "identifier": "bedrock_expansion:void_block"
+    },
+    {
+      "number": 92,
+      "category": "Blocks & Building",
+      "name": "Crystal Block",
+      "id": "crystal_block",
+      "identifier": "bedrock_expansion:crystal_block"
+    },
+    {
+      "number": 93,
+      "category": "Blocks & Building",
+      "name": "Reinforced Glass",
+      "id": "reinforced_glass",
+      "identifier": "bedrock_expansion:reinforced_glass"
+    },
+    {
+      "number": 94,
+      "category": "Blocks & Building",
+      "name": "Dark Glass",
+      "id": "dark_glass",
+      "identifier": "bedrock_expansion:dark_glass"
+    },
+    {
+      "number": 95,
+      "category": "Blocks & Building",
+      "name": "Glowing Concrete",
+      "id": "glowing_concrete",
+      "identifier": "bedrock_expansion:glowing_concrete"
+    },
+    {
+      "number": 96,
+      "category": "Blocks & Building",
+      "name": "Mossy Bricks",
+      "id": "mossy_bricks",
+      "identifier": "bedrock_expansion:mossy_bricks"
+    },
+    {
+      "number": 97,
+      "category": "Blocks & Building",
+      "name": "Cracked Bricks",
+      "id": "cracked_bricks",
+      "identifier": "bedrock_expansion:cracked_bricks"
+    },
+    {
+      "number": 98,
+      "category": "Blocks & Building",
+      "name": "Marble",
+      "id": "marble",
+      "identifier": "bedrock_expansion:marble"
+    },
+    {
+      "number": 99,
+      "category": "Blocks & Building",
+      "name": "Polished Marble",
+      "id": "polished_marble",
+      "identifier": "bedrock_expansion:polished_marble"
+    },
+    {
+      "number": 100,
+      "category": "Blocks & Building",
+      "name": "Limestone",
+      "id": "limestone",
+      "identifier": "bedrock_expansion:limestone"
+    },
+    {
+      "number": 101,
+      "category": "Redstone & Tech",
+      "name": "Copper Wire",
+      "id": "copper_wire",
+      "identifier": "bedrock_expansion:copper_wire"
+    },
+    {
+      "number": 102,
+      "category": "Redstone & Tech",
+      "name": "Silver Wire",
+      "id": "silver_wire",
+      "identifier": "bedrock_expansion:silver_wire"
+    },
+    {
+      "number": 103,
+      "category": "Redstone & Tech",
+      "name": "Logic Gate",
+      "id": "logic_gate",
+      "identifier": "bedrock_expansion:logic_gate"
+    },
+    {
+      "number": 104,
+      "category": "Redstone & Tech",
+      "name": "Timer Block",
+      "id": "timer_block",
+      "identifier": "bedrock_expansion:timer_block"
+    },
+    {
+      "number": 105,
+      "category": "Redstone & Tech",
+      "name": "Pulse Extender",
+      "id": "pulse_extender",
+      "identifier": "bedrock_expansion:pulse_extender"
+    },
+    {
+      "number": 106,
+      "category": "Redstone & Tech",
+      "name": "Item Pipe",
+      "id": "item_pipe",
+      "identifier": "bedrock_expansion:item_pipe"
+    },
+    {
+      "number": 107,
+      "category": "Redstone & Tech",
+      "name": "Fluid Pipe",
+      "id": "fluid_pipe",
+      "identifier": "bedrock_expansion:fluid_pipe"
+    },
+    {
+      "number": 108,
+      "category": "Redstone & Tech",
+      "name": "Energy Cable",
+      "id": "energy_cable",
+      "identifier": "bedrock_expansion:energy_cable"
+    },
+    {
+      "number": 109,
+      "category": "Redstone & Tech",
+      "name": "Solar Panel",
+      "id": "solar_panel",
+      "identifier": "bedrock_expansion:solar_panel"
+    },
+    {
+      "number": 110,
+      "category": "Redstone & Tech",
+      "name": "Battery",
+      "id": "battery",
+      "identifier": "bedrock_expansion:battery"
+    },
+    {
+      "number": 111,
+      "category": "Redstone & Tech",
+      "name": "Generator",
+      "id": "generator",
+      "identifier": "bedrock_expansion:generator"
+    },
+    {
+      "number": 112,
+      "category": "Redstone & Tech",
+      "name": "Electric Furnace",
+      "id": "electric_furnace",
+      "identifier": "bedrock_expansion:electric_furnace"
+    },
+    {
+      "number": 113,
+      "category": "Redstone & Tech",
+      "name": "Auto Crafting Table",
+      "id": "auto_crafting_table",
+      "identifier": "bedrock_expansion:auto_crafting_table"
+    },
+    {
+      "number": 114,
+      "category": "Redstone & Tech",
+      "name": "Conveyor Belt",
+      "id": "conveyor_belt",
+      "identifier": "bedrock_expansion:conveyor_belt"
+    },
+    {
+      "number": 115,
+      "category": "Redstone & Tech",
+      "name": "Robot Arm",
+      "id": "robot_arm",
+      "identifier": "bedrock_expansion:robot_arm"
+    },
+    {
+      "number": 116,
+      "category": "Redstone & Tech",
+      "name": "Sensor Block",
+      "id": "sensor_block",
+      "identifier": "bedrock_expansion:sensor_block"
+    },
+    {
+      "number": 117,
+      "category": "Redstone & Tech",
+      "name": "Speaker Block",
+      "id": "speaker_block",
+      "identifier": "bedrock_expansion:speaker_block"
+    },
+    {
+      "number": 118,
+      "category": "Redstone & Tech",
+      "name": "Monitor Block",
+      "id": "monitor_block",
+      "identifier": "bedrock_expansion:monitor_block"
+    },
+    {
+      "number": 119,
+      "category": "Redstone & Tech",
+      "name": "Keyboard Block",
+      "id": "keyboard_block",
+      "identifier": "bedrock_expansion:keyboard_block"
+    },
+    {
+      "number": 120,
+      "category": "Redstone & Tech",
+      "name": "Computer Block",
+      "id": "computer_block",
+      "identifier": "bedrock_expansion:computer_block"
+    },
+    {
+      "number": 121,
+      "category": "Magic & Enchanting",
+      "name": "Mana Crystal",
+      "id": "mana_crystal",
+      "identifier": "bedrock_expansion:mana_crystal"
+    },
+    {
+      "number": 122,
+      "category": "Magic & Enchanting",
+      "name": "Spell Book",
+      "id": "spell_book",
+      "identifier": "bedrock_expansion:spell_book"
+    },
+    {
+      "number": 123,
+      "category": "Magic & Enchanting",
+      "name": "Fire Spell",
+      "id": "fire_spell",
+      "identifier": "bedrock_expansion:fire_spell"
+    },
+    {
+      "number": 124,
+      "category": "Magic & Enchanting",
+      "name": "Ice Spell",
+      "id": "ice_spell",
+      "identifier": "bedrock_expansion:ice_spell"
+    },
+    {
+      "number": 125,
+      "category": "Magic & Enchanting",
+      "name": "Lightning Spell",
+      "id": "lightning_spell",
+      "identifier": "bedrock_expansion:lightning_spell"
+    },
+    {
+      "number": 126,
+      "category": "Magic & Enchanting",
+      "name": "Healing Spell",
+      "id": "healing_spell",
+      "identifier": "bedrock_expansion:healing_spell"
+    },
+    {
+      "number": 127,
+      "category": "Magic & Enchanting",
+      "name": "Teleport Spell",
+      "id": "teleport_spell",
+      "identifier": "bedrock_expansion:teleport_spell"
+    },
+    {
+      "number": 128,
+      "category": "Magic & Enchanting",
+      "name": "Shield Spell",
+      "id": "shield_spell",
+      "identifier": "bedrock_expansion:shield_spell"
+    },
+    {
+      "number": 129,
+      "category": "Magic & Enchanting",
+      "name": "Summon Spell",
+      "id": "summon_spell",
+      "identifier": "bedrock_expansion:summon_spell"
+    },
+    {
+      "number": 130,
+      "category": "Magic & Enchanting",
+      "name": "Enchantment Orb",
+      "id": "enchantment_orb",
+      "identifier": "bedrock_expansion:enchantment_orb"
+    },
+    {
+      "number": 131,
+      "category": "Magic & Enchanting",
+      "name": "Rune Stone",
+      "id": "rune_stone",
+      "identifier": "bedrock_expansion:rune_stone"
+    },
+    {
+      "number": 132,
+      "category": "Magic & Enchanting",
+      "name": "Magic Wand",
+      "id": "magic_wand",
+      "identifier": "bedrock_expansion:magic_wand"
+    },
+    {
+      "number": 133,
+      "category": "Magic & Enchanting",
+      "name": "Staff of Fire",
+      "id": "staff_of_fire",
+      "identifier": "bedrock_expansion:staff_of_fire"
+    },
+    {
+      "number": 134,
+      "category": "Magic & Enchanting",
+      "name": "Staff of Ice",
+      "id": "staff_of_ice",
+      "identifier": "bedrock_expansion:staff_of_ice"
+    },
+    {
+      "number": 135,
+      "category": "Magic & Enchanting",
+      "name": "Staff of Storms",
+      "id": "staff_of_storms",
+      "identifier": "bedrock_expansion:staff_of_storms"
+    },
+    {
+      "number": 136,
+      "category": "Magic & Enchanting",
+      "name": "Staff of Life",
+      "id": "staff_of_life",
+      "identifier": "bedrock_expansion:staff_of_life"
+    },
+    {
+      "number": 137,
+      "category": "Magic & Enchanting",
+      "name": "Soul Gem",
+      "id": "soul_gem",
+      "identifier": "bedrock_expansion:soul_gem"
+    },
+    {
+      "number": 138,
+      "category": "Magic & Enchanting",
+      "name": "Void Pearl",
+      "id": "void_pearl",
+      "identifier": "bedrock_expansion:void_pearl"
+    },
+    {
+      "number": 139,
+      "category": "Magic & Enchanting",
+      "name": "Celestial Shard",
+      "id": "celestial_shard",
+      "identifier": "bedrock_expansion:celestial_shard"
+    },
+    {
+      "number": 140,
+      "category": "Magic & Enchanting",
+      "name": "Alchemy Table",
+      "id": "alchemy_table",
+      "identifier": "bedrock_expansion:alchemy_table"
+    },
+    {
+      "number": 141,
+      "category": "Mobs & Drops",
+      "name": "Copper Golem Spawn Egg",
+      "id": "copper_golem_spawn_egg",
+      "identifier": "bedrock_expansion:copper_golem_spawn_egg"
+    },
+    {
+      "number": 142,
+      "category": "Mobs & Drops",
+      "name": "Silver Golem Spawn Egg",
+      "id": "silver_golem_spawn_egg",
+      "identifier": "bedrock_expansion:silver_golem_spawn_egg"
+    },
+    {
+      "number": 143,
+      "category": "Mobs & Drops",
+      "name": "Crystal Golem Spawn Egg",
+      "id": "crystal_golem_spawn_egg",
+      "identifier": "bedrock_expansion:crystal_golem_spawn_egg"
+    },
+    {
+      "number": 144,
+      "category": "Mobs & Drops",
+      "name": "Void Golem Spawn Egg",
+      "id": "void_golem_spawn_egg",
+      "identifier": "bedrock_expansion:void_golem_spawn_egg"
+    },
+    {
+      "number": 145,
+      "category": "Mobs & Drops",
+      "name": "Ember Imp Spawn Egg",
+      "id": "ember_imp_spawn_egg",
+      "identifier": "bedrock_expansion:ember_imp_spawn_egg"
+    },
+    {
+      "number": 146,
+      "category": "Mobs & Drops",
+      "name": "Frost Wolf Spawn Egg",
+      "id": "frost_wolf_spawn_egg",
+      "identifier": "bedrock_expansion:frost_wolf_spawn_egg"
+    },
+    {
+      "number": 147,
+      "category": "Mobs & Drops",
+      "name": "Storm Eagle Spawn Egg",
+      "id": "storm_eagle_spawn_egg",
+      "identifier": "bedrock_expansion:storm_eagle_spawn_egg"
+    },
+    {
+      "number": 148,
+      "category": "Mobs & Drops",
+      "name": "Lumen Fairy Spawn Egg",
+      "id": "lumen_fairy_spawn_egg",
+      "identifier": "bedrock_expansion:lumen_fairy_spawn_egg"
+    },
+    {
+      "number": 149,
+      "category": "Mobs & Drops",
+      "name": "Cave Lurker Spawn Egg",
+      "id": "cave_lurker_spawn_egg",
+      "identifier": "bedrock_expansion:cave_lurker_spawn_egg"
+    },
+    {
+      "number": 150,
+      "category": "Mobs & Drops",
+      "name": "Deep Crab Spawn Egg",
+      "id": "deep_crab_spawn_egg",
+      "identifier": "bedrock_expansion:deep_crab_spawn_egg"
+    },
+    {
+      "number": 151,
+      "category": "Mobs & Drops",
+      "name": "Copper Golem Core",
+      "id": "copper_golem_core",
+      "identifier": "bedrock_expansion:copper_golem_core"
+    },
+    {
+      "number": 152,
+      "category": "Mobs & Drops",
+      "name": "Silver Golem Core",
+      "id": "silver_golem_core",
+      "identifier": "bedrock_expansion:silver_golem_core"
+    },
+    {
+      "number": 153,
+      "category": "Mobs & Drops",
+      "name": "Crystal Golem Core",
+      "id": "crystal_golem_core",
+      "identifier": "bedrock_expansion:crystal_golem_core"
+    },
+    {
+      "number": 154,
+      "category": "Mobs & Drops",
+      "name": "Void Golem Core",
+      "id": "void_golem_core",
+      "identifier": "bedrock_expansion:void_golem_core"
+    },
+    {
+      "number": 155,
+      "category": "Mobs & Drops",
+      "name": "Ember Essence",
+      "id": "ember_essence",
+      "identifier": "bedrock_expansion:ember_essence"
+    },
+    {
+      "number": 156,
+      "category": "Mobs & Drops",
+      "name": "Frost Fur",
+      "id": "frost_fur",
+      "identifier": "bedrock_expansion:frost_fur"
+    },
+    {
+      "number": 157,
+      "category": "Mobs & Drops",
+      "name": "Storm Feather",
+      "id": "storm_feather",
+      "identifier": "bedrock_expansion:storm_feather"
+    },
+    {
+      "number": 158,
+      "category": "Mobs & Drops",
+      "name": "Lumen Dust",
+      "id": "lumen_dust",
+      "identifier": "bedrock_expansion:lumen_dust"
+    },
+    {
+      "number": 159,
+      "category": "Mobs & Drops",
+      "name": "Lurker Eye",
+      "id": "lurker_eye",
+      "identifier": "bedrock_expansion:lurker_eye"
+    },
+    {
+      "number": 160,
+      "category": "Mobs & Drops",
+      "name": "Crab Claw",
+      "id": "crab_claw",
+      "identifier": "bedrock_expansion:crab_claw"
+    },
+    {
+      "number": 161,
+      "category": "Decoration & Furniture",
+      "name": "Wooden Chair",
+      "id": "wooden_chair",
+      "identifier": "bedrock_expansion:wooden_chair"
+    },
+    {
+      "number": 162,
+      "category": "Decoration & Furniture",
+      "name": "Wooden Table",
+      "id": "wooden_table",
+      "identifier": "bedrock_expansion:wooden_table"
+    },
+    {
+      "number": 163,
+      "category": "Decoration & Furniture",
+      "name": "Wooden Bed",
+      "id": "wooden_bed",
+      "identifier": "bedrock_expansion:wooden_bed"
+    },
+    {
+      "number": 164,
+      "category": "Decoration & Furniture",
+      "name": "Sofa",
+      "id": "sofa",
+      "identifier": "bedrock_expansion:sofa"
+    },
+    {
+      "number": 165,
+      "category": "Decoration & Furniture",
+      "name": "Bookshelf",
+      "id": "bookshelf",
+      "identifier": "bedrock_expansion:bookshelf"
+    },
+    {
+      "number": 166,
+      "category": "Decoration & Furniture",
+      "name": "Lamp",
+      "id": "lamp",
+      "identifier": "bedrock_expansion:lamp"
+    },
+    {
+      "number": 167,
+      "category": "Decoration & Furniture",
+      "name": "Ceiling Light",
+      "id": "ceiling_light",
+      "identifier": "bedrock_expansion:ceiling_light"
+    },
+    {
+      "number": 168,
+      "category": "Decoration & Furniture",
+      "name": "Wall Clock",
+      "id": "wall_clock",
+      "identifier": "bedrock_expansion:wall_clock"
+    },
+    {
+      "number": 169,
+      "category": "Decoration & Furniture",
+      "name": "Painting Frame",
+      "id": "painting_frame",
+      "identifier": "bedrock_expansion:painting_frame"
+    },
+    {
+      "number": 170,
+      "category": "Decoration & Furniture",
+      "name": "Vase",
+      "id": "vase",
+      "identifier": "bedrock_expansion:vase"
+    },
+    {
+      "number": 171,
+      "category": "Decoration & Furniture",
+      "name": "Large Flower Pot",
+      "id": "large_flower_pot",
+      "identifier": "bedrock_expansion:large_flower_pot"
+    },
+    {
+      "number": 172,
+      "category": "Decoration & Furniture",
+      "name": "Rug",
+      "id": "rug",
+      "identifier": "bedrock_expansion:rug"
+    },
+    {
+      "number": 173,
+      "category": "Decoration & Furniture",
+      "name": "Curtain",
+      "id": "curtain",
+      "identifier": "bedrock_expansion:curtain"
+    },
+    {
+      "number": 174,
+      "category": "Decoration & Furniture",
+      "name": "Fireplace",
+      "id": "fireplace",
+      "identifier": "bedrock_expansion:fireplace"
+    },
+    {
+      "number": 175,
+      "category": "Decoration & Furniture",
+      "name": "Kitchen Counter",
+      "id": "kitchen_counter",
+      "identifier": "bedrock_expansion:kitchen_counter"
+    },
+    {
+      "number": 176,
+      "category": "Decoration & Furniture",
+      "name": "Oven",
+      "id": "oven",
+      "identifier": "bedrock_expansion:oven"
+    },
+    {
+      "number": 177,
+      "category": "Decoration & Furniture",
+      "name": "Refrigerator",
+      "id": "refrigerator",
+      "identifier": "bedrock_expansion:refrigerator"
+    },
+    {
+      "number": 178,
+      "category": "Decoration & Furniture",
+      "name": "Toilet",
+      "id": "toilet",
+      "identifier": "bedrock_expansion:toilet"
+    },
+    {
+      "number": 179,
+      "category": "Decoration & Furniture",
+      "name": "Bathtub",
+      "id": "bathtub",
+      "identifier": "bedrock_expansion:bathtub"
+    },
+    {
+      "number": 180,
+      "category": "Decoration & Furniture",
+      "name": "Sink",
+      "id": "sink",
+      "identifier": "bedrock_expansion:sink"
+    },
+    {
+      "number": 181,
+      "category": "Utility & Adventure",
+      "name": "Backpack",
+      "id": "backpack",
+      "identifier": "bedrock_expansion:backpack"
+    },
+    {
+      "number": 182,
+      "category": "Utility & Adventure",
+      "name": "Large Backpack",
+      "id": "large_backpack",
+      "identifier": "bedrock_expansion:large_backpack"
+    },
+    {
+      "number": 183,
+      "category": "Utility & Adventure",
+      "name": "Ender Backpack",
+      "id": "ender_backpack",
+      "identifier": "bedrock_expansion:ender_backpack"
+    },
+    {
+      "number": 184,
+      "category": "Utility & Adventure",
+      "name": "Map Marker",
+      "id": "map_marker",
+      "identifier": "bedrock_expansion:map_marker"
+    },
+    {
+      "number": 185,
+      "category": "Utility & Adventure",
+      "name": "Compass Upgrade",
+      "id": "compass_upgrade",
+      "identifier": "bedrock_expansion:compass_upgrade"
+    },
+    {
+      "number": 186,
+      "category": "Utility & Adventure",
+      "name": "Clock Upgrade",
+      "id": "clock_upgrade",
+      "identifier": "bedrock_expansion:clock_upgrade"
+    },
+    {
+      "number": 187,
+      "category": "Utility & Adventure",
+      "name": "Lantern Helmet",
+      "id": "lantern_helmet",
+      "identifier": "bedrock_expansion:lantern_helmet"
+    },
+    {
+      "number": 188,
+      "category": "Utility & Adventure",
+      "name": "Night Vision Goggles",
+      "id": "night_vision_goggles",
+      "identifier": "bedrock_expansion:night_vision_goggles"
+    },
+    {
+      "number": 189,
+      "category": "Utility & Adventure",
+      "name": "Scuba Helmet",
+      "id": "scuba_helmet",
+      "identifier": "bedrock_expansion:scuba_helmet"
+    },
+    {
+      "number": 190,
+      "category": "Utility & Adventure",
+      "name": "Jetpack",
+      "id": "jetpack",
+      "identifier": "bedrock_expansion:jetpack"
+    },
+    {
+      "number": 191,
+      "category": "Utility & Adventure",
+      "name": "Parachute",
+      "id": "parachute",
+      "identifier": "bedrock_expansion:parachute"
+    },
+    {
+      "number": 192,
+      "category": "Utility & Adventure",
+      "name": "Grappling Hook",
+      "id": "grappling_hook",
+      "identifier": "bedrock_expansion:grappling_hook"
+    },
+    {
+      "number": 193,
+      "category": "Utility & Adventure",
+      "name": "Lockpick",
+      "id": "lockpick",
+      "identifier": "bedrock_expansion:lockpick"
+    },
+    {
+      "number": 194,
+      "category": "Utility & Adventure",
+      "name": "Key",
+      "id": "key",
+      "identifier": "bedrock_expansion:key"
+    },
+    {
+      "number": 195,
+      "category": "Utility & Adventure",
+      "name": "Treasure Map",
+      "id": "treasure_map",
+      "identifier": "bedrock_expansion:treasure_map"
+    },
+    {
+      "number": 196,
+      "category": "Utility & Adventure",
+      "name": "Boss Key",
+      "id": "boss_key",
+      "identifier": "bedrock_expansion:boss_key"
+    },
+    {
+      "number": 197,
+      "category": "Utility & Adventure",
+      "name": "Dungeon Compass",
+      "id": "dungeon_compass",
+      "identifier": "bedrock_expansion:dungeon_compass"
+    },
+    {
+      "number": 198,
+      "category": "Utility & Adventure",
+      "name": "Waypoint Stone",
+      "id": "waypoint_stone",
+      "identifier": "bedrock_expansion:waypoint_stone"
+    },
+    {
+      "number": 199,
+      "category": "Utility & Adventure",
+      "name": "Portal Frame",
+      "id": "portal_frame",
+      "identifier": "bedrock_expansion:portal_frame"
+    },
+    {
+      "number": 200,
+      "category": "Utility & Adventure",
+      "name": "Portal Activator",
+      "id": "portal_activator",
+      "identifier": "bedrock_expansion:portal_activator"
+    }
+  ],
+  "block_identifiers": [
+    "bedrock_expansion:adamantite_block",
+    "bedrock_expansion:adamantite_ore",
+    "bedrock_expansion:alchemy_table",
+    "bedrock_expansion:auto_crafting_table",
+    "bedrock_expansion:battery",
+    "bedrock_expansion:computer_block",
+    "bedrock_expansion:conveyor_belt",
+    "bedrock_expansion:copper_block",
+    "bedrock_expansion:copper_wire",
+    "bedrock_expansion:cracked_bricks",
+    "bedrock_expansion:crystal_block",
+    "bedrock_expansion:dark_glass",
+    "bedrock_expansion:deepslate_crystal",
+    "bedrock_expansion:electric_furnace",
+    "bedrock_expansion:ember_block",
+    "bedrock_expansion:energy_cable",
+    "bedrock_expansion:fluid_pipe",
+    "bedrock_expansion:frost_block",
+    "bedrock_expansion:generator",
+    "bedrock_expansion:glowing_concrete",
+    "bedrock_expansion:item_pipe",
+    "bedrock_expansion:keyboard_block",
+    "bedrock_expansion:limestone",
+    "bedrock_expansion:logic_gate",
+    "bedrock_expansion:lumen_block",
+    "bedrock_expansion:lumen_crystal",
+    "bedrock_expansion:marble",
+    "bedrock_expansion:monitor_block",
+    "bedrock_expansion:mossy_bricks",
+    "bedrock_expansion:mythril_block",
+    "bedrock_expansion:mythril_ore",
+    "bedrock_expansion:platinum_block",
+    "bedrock_expansion:platinum_ore",
+    "bedrock_expansion:polished_marble",
+    "bedrock_expansion:portal_frame",
+    "bedrock_expansion:pulse_extender",
+    "bedrock_expansion:reinforced_glass",
+    "bedrock_expansion:robot_arm",
+    "bedrock_expansion:sensor_block",
+    "bedrock_expansion:silver_block",
+    "bedrock_expansion:silver_ore",
+    "bedrock_expansion:silver_wire",
+    "bedrock_expansion:solar_panel",
+    "bedrock_expansion:speaker_block",
+    "bedrock_expansion:storm_block",
+    "bedrock_expansion:timer_block",
+    "bedrock_expansion:tin_block",
+    "bedrock_expansion:tin_ore",
+    "bedrock_expansion:void_block",
+    "bedrock_expansion:voidstone",
+    "bedrock_expansion:waypoint_stone"
+  ],
+  "portable_item_identifiers": [
+    "bedrock_expansion:adamantite_boots",
+    "bedrock_expansion:adamantite_chestplate",
+    "bedrock_expansion:adamantite_helmet",
+    "bedrock_expansion:adamantite_ingot",
+    "bedrock_expansion:adamantite_leggings",
+    "bedrock_expansion:adamantite_stew",
+    "bedrock_expansion:adamantite_sword",
+    "bedrock_expansion:amethyst_core",
+    "bedrock_expansion:backpack",
+    "bedrock_expansion:bacon_strip",
+    "bedrock_expansion:bathtub",
+    "bedrock_expansion:bedrock_axe",
+    "bedrock_expansion:bedrock_dust",
+    "bedrock_expansion:bedrock_hoe",
+    "bedrock_expansion:bedrock_pickaxe",
+    "bedrock_expansion:bedrock_shovel",
+    "bedrock_expansion:bookshelf",
+    "bedrock_expansion:boss_key",
+    "bedrock_expansion:butter",
+    "bedrock_expansion:cave_lurker_spawn_egg",
+    "bedrock_expansion:ceiling_light",
+    "bedrock_expansion:celestial_shard",
+    "bedrock_expansion:chainsaw",
+    "bedrock_expansion:cheese_wheel",
+    "bedrock_expansion:chocolate_bar",
+    "bedrock_expansion:clock_upgrade",
+    "bedrock_expansion:compass_upgrade",
+    "bedrock_expansion:copper_boots",
+    "bedrock_expansion:copper_carrot",
+    "bedrock_expansion:copper_chestplate",
+    "bedrock_expansion:copper_golem_core",
+    "bedrock_expansion:copper_golem_spawn_egg",
+    "bedrock_expansion:copper_helmet",
+    "bedrock_expansion:copper_leggings",
+    "bedrock_expansion:copper_nugget",
+    "bedrock_expansion:copper_sword",
+    "bedrock_expansion:crab_claw",
+    "bedrock_expansion:crystal_dagger",
+    "bedrock_expansion:crystal_golem_core",
+    "bedrock_expansion:crystal_golem_spawn_egg",
+    "bedrock_expansion:crystal_grapes",
+    "bedrock_expansion:curtain",
+    "bedrock_expansion:deep_crab_spawn_egg",
+    "bedrock_expansion:drill",
+    "bedrock_expansion:dungeon_compass",
+    "bedrock_expansion:ember_crossbow",
+    "bedrock_expansion:ember_dust",
+    "bedrock_expansion:ember_essence",
+    "bedrock_expansion:ember_imp_spawn_egg",
+    "bedrock_expansion:ember_pepper",
+    "bedrock_expansion:enchantment_orb",
+    "bedrock_expansion:ender_backpack",
+    "bedrock_expansion:fire_spell",
+    "bedrock_expansion:fireplace",
+    "bedrock_expansion:fish_stew",
+    "bedrock_expansion:fried_egg",
+    "bedrock_expansion:frost_fur",
+    "bedrock_expansion:frost_melon",
+    "bedrock_expansion:frost_shard",
+    "bedrock_expansion:frost_trident",
+    "bedrock_expansion:frost_wolf_spawn_egg",
+    "bedrock_expansion:golden_apple_pie",
+    "bedrock_expansion:grappling_hook",
+    "bedrock_expansion:healing_spell",
+    "bedrock_expansion:honey_cookie",
+    "bedrock_expansion:ice_spell",
+    "bedrock_expansion:jetpack",
+    "bedrock_expansion:key",
+    "bedrock_expansion:kitchen_counter",
+    "bedrock_expansion:lamp",
+    "bedrock_expansion:lantern_helmet",
+    "bedrock_expansion:large_backpack",
+    "bedrock_expansion:large_flower_pot",
+    "bedrock_expansion:lightning_spell",
+    "bedrock_expansion:lockpick",
+    "bedrock_expansion:lumen_berry",
+    "bedrock_expansion:lumen_bow",
+    "bedrock_expansion:lumen_dust",
+    "bedrock_expansion:lumen_fairy_spawn_egg",
+    "bedrock_expansion:lurker_eye",
+    "bedrock_expansion:magic_cake",
+    "bedrock_expansion:magic_wand",
+    "bedrock_expansion:mana_crystal",
+    "bedrock_expansion:map_marker",
+    "bedrock_expansion:mythril_boots",
+    "bedrock_expansion:mythril_bread",
+    "bedrock_expansion:mythril_chestplate",
+    "bedrock_expansion:mythril_helmet",
+    "bedrock_expansion:mythril_ingot",
+    "bedrock_expansion:mythril_leggings",
+    "bedrock_expansion:mythril_sword",
+    "bedrock_expansion:nether_quartz_shard",
+    "bedrock_expansion:night_vision_goggles",
+    "bedrock_expansion:oven",
+    "bedrock_expansion:painting_frame",
+    "bedrock_expansion:parachute",
+    "bedrock_expansion:platinum_boots",
+    "bedrock_expansion:platinum_chestplate",
+    "bedrock_expansion:platinum_helmet",
+    "bedrock_expansion:platinum_ingot",
+    "bedrock_expansion:platinum_leggings",
+    "bedrock_expansion:platinum_potato",
+    "bedrock_expansion:platinum_sword",
+    "bedrock_expansion:portal_activator",
+    "bedrock_expansion:refrigerator",
+    "bedrock_expansion:rug",
+    "bedrock_expansion:rune_stone",
+    "bedrock_expansion:scuba_helmet",
+    "bedrock_expansion:scythe",
+    "bedrock_expansion:shield_spell",
+    "bedrock_expansion:silver_beetroot",
+    "bedrock_expansion:silver_boots",
+    "bedrock_expansion:silver_chestplate",
+    "bedrock_expansion:silver_golem_core",
+    "bedrock_expansion:silver_golem_spawn_egg",
+    "bedrock_expansion:silver_helmet",
+    "bedrock_expansion:silver_ingot",
+    "bedrock_expansion:silver_leggings",
+    "bedrock_expansion:silver_sword",
+    "bedrock_expansion:sink",
+    "bedrock_expansion:sofa",
+    "bedrock_expansion:soul_gem",
+    "bedrock_expansion:spell_book",
+    "bedrock_expansion:staff_of_fire",
+    "bedrock_expansion:staff_of_ice",
+    "bedrock_expansion:staff_of_life",
+    "bedrock_expansion:staff_of_storms",
+    "bedrock_expansion:stone_spear",
+    "bedrock_expansion:storm_corn",
+    "bedrock_expansion:storm_eagle_spawn_egg",
+    "bedrock_expansion:storm_feather",
+    "bedrock_expansion:storm_fragment",
+    "bedrock_expansion:storm_hammer",
+    "bedrock_expansion:summon_spell",
+    "bedrock_expansion:teleport_spell",
+    "bedrock_expansion:tin_ingot",
+    "bedrock_expansion:toilet",
+    "bedrock_expansion:treasure_map",
+    "bedrock_expansion:vase",
+    "bedrock_expansion:void_blade",
+    "bedrock_expansion:void_fruit",
+    "bedrock_expansion:void_golem_core",
+    "bedrock_expansion:void_golem_spawn_egg",
+    "bedrock_expansion:void_pearl",
+    "bedrock_expansion:wall_clock",
+    "bedrock_expansion:war_axe",
+    "bedrock_expansion:wooden_bed",
+    "bedrock_expansion:wooden_chair",
+    "bedrock_expansion:wooden_table"
+  ]
+}

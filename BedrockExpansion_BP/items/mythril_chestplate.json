@@ -1,0 +1,39 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "bedrock_expansion:mythril_chestplate",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "mythril_chestplate"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "item.bedrock_expansion:mythril_chestplate.name"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:tags": {
+        "tags": [
+          "bedrock_expansion:catalog_54",
+          "bedrock_expansion:tier_4"
+        ]
+      },
+      "minecraft:wearable": {
+        "slot": "slot.armor.chest",
+        "protection": 9
+      },
+      "minecraft:durability": {
+        "max_durability": 560
+      },
+      "minecraft:enchantable": {
+        "slot": "armor_torso",
+        "value": 18
+      }
+    }
+  }
+}

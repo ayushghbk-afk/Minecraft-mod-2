@@ -1,0 +1,31 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "bedrock_expansion:scuba_helmet"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "IGI",
+      "GFG",
+      " I "
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:iron_ingot"
+      },
+      "G": {
+        "item": "minecraft:glass"
+      },
+      "F": {
+        "item": "bedrock_expansion:fluid_pipe"
+      }
+    },
+    "result": {
+      "item": "bedrock_expansion:scuba_helmet",
+      "count": 1
+    }
+  }
+}

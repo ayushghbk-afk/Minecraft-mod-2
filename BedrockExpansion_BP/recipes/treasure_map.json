@@ -1,0 +1,26 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "bedrock_expansion:treasure_map"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:map"
+      },
+      {
+        "item": "bedrock_expansion:lumen_dust"
+      },
+      {
+        "item": "bedrock_expansion:voidstone"
+      }
+    ],
+    "result": {
+      "item": "bedrock_expansion:treasure_map",
+      "count": 1
+    }
+  }
+}

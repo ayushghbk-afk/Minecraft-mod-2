@@ -1,0 +1,29 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "bedrock_expansion:energy_cable"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "bedrock_expansion:silver_wire"
+      },
+      {
+        "item": "bedrock_expansion:silver_wire"
+      },
+      {
+        "item": "minecraft:redstone_block"
+      },
+      {
+        "item": "minecraft:copper_ingot"
+      }
+    ],
+    "result": {
+      "item": "bedrock_expansion:energy_cable",
+      "count": 2
+    }
+  }
+}

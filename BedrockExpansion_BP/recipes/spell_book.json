@@ -1,0 +1,31 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "bedrock_expansion:spell_book"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "PPP",
+      "LMP",
+      "PPP"
+    ],
+    "key": {
+      "P": {
+        "item": "minecraft:paper"
+      },
+      "L": {
+        "item": "minecraft:leather"
+      },
+      "M": {
+        "item": "bedrock_expansion:mana_crystal"
+      }
+    },
+    "result": {
+      "item": "bedrock_expansion:spell_book",
+      "count": 1
+    }
+  }
+}

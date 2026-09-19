@@ -1,0 +1,23 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "bedrock_expansion:frost_melon"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "minecraft:melon_slice"
+      },
+      {
+        "item": "bedrock_expansion:frost_shard"
+      }
+    ],
+    "result": {
+      "item": "bedrock_expansion:frost_melon",
+      "count": 2
+    }
+  }
+}
