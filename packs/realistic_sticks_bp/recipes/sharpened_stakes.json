@@ -1,0 +1,30 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "realstick:sharpened_stakes"
+    },
+    "group": "realstick:camp",
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "P",
+      "P"
+    ],
+    "key": {
+      "P": {
+        "tag": "realstick:sharpened_sticks"
+      }
+    },
+    "result": {
+      "item": "realstick:sharpened_stakes",
+      "count": 2
+    },
+    "unlock": [
+      {
+        "item": "realstick:sharpened_stick"
+      }
+    ]
+  }
+}

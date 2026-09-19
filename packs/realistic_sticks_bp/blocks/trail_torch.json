@@ -1,0 +1,53 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "realstick:trail_torch",
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:collision_box": {
+        "origin": [
+          -4,
+          0,
+          -4
+        ],
+        "size": [
+          8,
+          16,
+          8
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -4,
+          0,
+          -4
+        ],
+        "size": [
+          8,
+          16,
+          8
+        ]
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.4
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 2.0
+      },
+      "minecraft:geometry": "geometry.realstick_trail_torch",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "realstick_trail_torch",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:map_color": "#c98a3a",
+      "minecraft:loot": "loot_tables/blocks/trail_torch.json",
+      "minecraft:light_emission": 14
+    }
+  }
+}

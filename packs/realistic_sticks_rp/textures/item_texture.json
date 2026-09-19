@@ -40,6 +40,30 @@
     },
     "realstick:kindling_bundle": {
       "textures": "textures/items/kindling_bundle"
+    },
+    "realstick:bark_strip": {
+      "textures": "textures/items/bark_strip"
+    },
+    "realstick:bark_rope": {
+      "textures": "textures/items/bark_rope"
+    },
+    "realstick:wood_chips": {
+      "textures": "textures/items/wood_chips"
+    },
+    "realstick:tinder_bundle": {
+      "textures": "textures/items/tinder_bundle"
+    },
+    "realstick:charcoal_lump": {
+      "textures": "textures/items/charcoal_lump"
+    },
+    "realstick:walking_staff": {
+      "textures": "textures/items/walking_staff"
+    },
+    "realstick:hunting_spear": {
+      "textures": "textures/items/hunting_spear"
+    },
+    "realstick:wooden_mallet": {
+      "textures": "textures/items/wooden_mallet"
     }
   }
 }

@@ -1,0 +1,53 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "realstick:walking_staff",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "realstick:walking_staff"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "Walking staff"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:damage": {
+        "value": 3
+      },
+      "minecraft:hand_equipped": true,
+      "minecraft:durability": {
+        "max_durability": 96
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "realstick:oak_stick",
+              "realstick:spruce_stick",
+              "realstick:birch_stick",
+              "realstick:jungle_stick",
+              "realstick:acacia_stick",
+              "realstick:dark_oak_stick",
+              "realstick:mangrove_stick",
+              "realstick:cherry_stick",
+              "realstick:pale_oak_stick",
+              "realstick:bamboo_stick"
+            ],
+            "repair_amount": 8
+          }
+        ]
+      },
+      "minecraft:tags": {
+        "tags": [
+          "realstick:field_tools"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "realstick:hunting_spear"
+    },
+    "group": "realstick:fieldcraft",
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "P",
+      "R",
+      "S"
+    ],
+    "key": {
+      "P": {
+        "tag": "realstick:sharpened_sticks"
+      },
+      "R": {
+        "item": "realstick:bark_rope"
+      },
+      "S": {
+        "tag": "realstick:wood_sticks"
+      }
+    },
+    "result": {
+      "item": "realstick:hunting_spear",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "realstick:sharpened_stick"
+      }
+    ]
+  }
+}

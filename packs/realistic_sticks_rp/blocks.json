@@ -1,0 +1,25 @@
+{
+  "format_version": [
+    1,
+    1,
+    0
+  ],
+  "realstick:stick_pile": {
+    "sound": "wood"
+  },
+  "realstick:kindling_block": {
+    "sound": "wood"
+  },
+  "realstick:sharpened_stakes": {
+    "sound": "wood"
+  },
+  "realstick:campfire_kit": {
+    "sound": "wood"
+  },
+  "realstick:log_stool": {
+    "sound": "wood"
+  },
+  "realstick:trail_torch": {
+    "sound": "wood"
+  }
+}
