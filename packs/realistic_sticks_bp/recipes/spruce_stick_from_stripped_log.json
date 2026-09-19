@@ -1,0 +1,29 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "realstick:spruce_stick_from_stripped_spruce_log"
+    },
+    "group": "realstick:wood_sticks",
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "L"
+    ],
+    "key": {
+      "L": {
+        "item": "minecraft:stripped_spruce_log"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:stripped_spruce_log"
+      }
+    ],
+    "result": {
+      "item": "realstick:spruce_stick",
+      "count": 4
+    }
+  }
+}

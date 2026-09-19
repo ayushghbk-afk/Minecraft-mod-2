@@ -1,0 +1,45 @@
+{
+  "resource_pack_name": "realistic_sticks",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "stick": {
+      "textures": "textures/items/stick"
+    },
+    "realstick:oak_stick": {
+      "textures": "textures/items/oak_stick"
+    },
+    "realstick:spruce_stick": {
+      "textures": "textures/items/spruce_stick"
+    },
+    "realstick:birch_stick": {
+      "textures": "textures/items/birch_stick"
+    },
+    "realstick:jungle_stick": {
+      "textures": "textures/items/jungle_stick"
+    },
+    "realstick:acacia_stick": {
+      "textures": "textures/items/acacia_stick"
+    },
+    "realstick:dark_oak_stick": {
+      "textures": "textures/items/dark_oak_stick"
+    },
+    "realstick:mangrove_stick": {
+      "textures": "textures/items/mangrove_stick"
+    },
+    "realstick:cherry_stick": {
+      "textures": "textures/items/cherry_stick"
+    },
+    "realstick:pale_oak_stick": {
+      "textures": "textures/items/pale_oak_stick"
+    },
+    "realstick:bamboo_stick": {
+      "textures": "textures/items/bamboo_stick"
+    },
+    "realstick:sharpened_stick": {
+      "textures": "textures/items/sharpened_stick"
+    },
+    "realstick:kindling_bundle": {
+      "textures": "textures/items/kindling_bundle"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "realstick:kindling_bundle",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "realstick:kindling_bundle"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "Kindling bundle"
+      },
+      "minecraft:max_stack_size": 16,
+      "minecraft:fuel": {
+        "duration": 30
+      },
+      "minecraft:tags": {
+        "tags": [
+          "realstick:kindling"
+        ]
+      }
+    }
+  }
+}

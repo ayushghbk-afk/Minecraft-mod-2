@@ -1,0 +1,29 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "realstick:dark_oak_stick_from_dark_oak_log"
+    },
+    "group": "realstick:wood_sticks",
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "L"
+    ],
+    "key": {
+      "L": {
+        "item": "minecraft:dark_oak_log"
+      }
+    },
+    "unlock": [
+      {
+        "item": "minecraft:dark_oak_log"
+      }
+    ],
+    "result": {
+      "item": "realstick:dark_oak_stick",
+      "count": 4
+    }
+  }
+}
