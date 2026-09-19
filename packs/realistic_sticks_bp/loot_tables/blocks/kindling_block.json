@@ -1,0 +1,14 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "realstick:kindling_block",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "realstick:trail_torch_from_charcoal"
+    },
+    "group": "realstick:camp",
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "C",
+      "T",
+      "S"
+    ],
+    "key": {
+      "C": {
+        "item": "realstick:charcoal_lump"
+      },
+      "T": {
+        "item": "realstick:tinder_bundle"
+      },
+      "S": {
+        "tag": "realstick:wood_sticks"
+      }
+    },
+    "result": {
+      "item": "realstick:trail_torch",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "realstick:charcoal_lump"
+      }
+    ]
+  }
+}

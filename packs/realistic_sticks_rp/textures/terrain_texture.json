@@ -1,0 +1,29 @@
+{
+  "resource_pack_name": "realistic_sticks",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "realstick_stick_pile": {
+      "textures": "textures/blocks/stick_pile"
+    },
+    "realstick_kindling_block": {
+      "textures": "textures/blocks/kindling_block"
+    },
+    "realstick_sharpened_stakes": {
+      "textures": "textures/blocks/sharpened_stakes"
+    },
+    "realstick_campfire_kit": {
+      "textures": "textures/blocks/campfire_kit"
+    },
+    "realstick_trail_torch": {
+      "textures": "textures/blocks/trail_torch"
+    },
+    "realstick_log_side": {
+      "textures": "textures/blocks/log_side"
+    },
+    "realstick_log_top": {
+      "textures": "textures/blocks/log_top"
+    }
+  }
+}

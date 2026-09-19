@@ -1,0 +1,60 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:block": {
+    "description": {
+      "identifier": "realstick:log_stool",
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:collision_box": {
+        "origin": [
+          -6,
+          0,
+          -6
+        ],
+        "size": [
+          12,
+          10,
+          12
+        ]
+      },
+      "minecraft:selection_box": {
+        "origin": [
+          -6,
+          0,
+          -6
+        ],
+        "size": [
+          12,
+          10,
+          12
+        ]
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.4
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 2.0
+      },
+      "minecraft:geometry": "geometry.realstick_log_stool",
+      "minecraft:material_instances": {
+        "up": {
+          "texture": "realstick_log_top",
+          "render_method": "opaque"
+        },
+        "*": {
+          "texture": "realstick_log_side",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:map_color": "#7a5230",
+      "minecraft:loot": "loot_tables/blocks/log_stool.json",
+      "minecraft:flammable": {
+        "catch_chance_modifier": 5,
+        "destroy_chance_modifier": 20
+      }
+    }
+  }
+}

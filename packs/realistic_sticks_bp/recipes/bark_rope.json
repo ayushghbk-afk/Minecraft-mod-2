@@ -1,0 +1,29 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "realstick:bark_rope"
+    },
+    "group": "realstick:fieldcraft",
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "BBB"
+    ],
+    "key": {
+      "B": {
+        "item": "realstick:bark_strip"
+      }
+    },
+    "result": {
+      "item": "realstick:bark_rope",
+      "count": 1
+    },
+    "unlock": [
+      {
+        "item": "realstick:bark_strip"
+      }
+    ]
+  }
+}

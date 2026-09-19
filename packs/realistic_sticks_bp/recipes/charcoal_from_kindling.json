@@ -1,0 +1,18 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "realstick:charcoal_from_kindling"
+    },
+    "tags": [
+      "furnace"
+    ],
+    "input": {
+      "item": "realstick:kindling_bundle"
+    },
+    "output": {
+      "item": "realstick:charcoal_lump",
+      "count": 1
+    }
+  }
+}

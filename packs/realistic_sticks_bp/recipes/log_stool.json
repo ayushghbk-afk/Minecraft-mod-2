@@ -1,0 +1,22 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "realstick:log_stool"
+    },
+    "group": "realstick:camp",
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "tag": "realstick:wood_sticks",
+        "count": 6
+      }
+    ],
+    "result": {
+      "item": "realstick:log_stool",
+      "count": 1
+    }
+  }
+}

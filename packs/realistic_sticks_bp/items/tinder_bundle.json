@@ -1,0 +1,30 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "realstick:tinder_bundle",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "realstick:tinder_bundle"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "Tinder bundle"
+      },
+      "minecraft:max_stack_size": 16,
+      "minecraft:fuel": {
+        "duration": 15
+      },
+      "minecraft:tags": {
+        "tags": [
+          "realstick:tinder"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "format_version": "1.26.50",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "realstick:torches_from_kindling"
+    },
+    "group": "realstick:fieldcraft",
+    "tags": [
+      "crafting_table"
+    ],
+    "ingredients": [
+      {
+        "item": "realstick:kindling_bundle"
+      },
+      {
+        "item": "minecraft:coal"
+      }
+    ],
+    "result": {
+      "item": "minecraft:torch",
+      "count": 8
+    },
+    "unlock": [
+      {
+        "item": "minecraft:coal"
+      }
+    ]
+  }
+}
