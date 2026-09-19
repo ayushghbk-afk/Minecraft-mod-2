@@ -400,6 +400,130 @@ def upscale(canvas, factor: int):
     ]
 
 
+# ---------------------------------------------------------------------------
+# Water flipbooks. Vanilla still/flow grey sheets are 16x512 (32 frames of
+# 16x16). Biome tint is multiplied on the grey sheets, so they stay greyscale.
+# Flowing frames scroll downward so currents read as real moving water.
+# ---------------------------------------------------------------------------
+
+WATER_SIZE = 16
+WATER_FRAMES = 32
+
+
+def _clamp(value: float, lo: float, hi: float) -> float:
+    return lo if value < lo else hi if value > hi else value
+
+
+def _shade_water(height: float, spec: float, foam: float) -> tuple[int, int, int, int]:
+    """Map a wave height field to greyscale + alpha that biome-tints cleanly."""
+    lum = 102 + height * 42 + spec * 78 + foam * 70
+    alpha = 148 + height * 20 + spec * 28 + foam * 36
+    lum_i = int(_clamp(lum, 36, 235))
+    alpha_i = int(_clamp(alpha, 96, 220))
+    return (lum_i, lum_i, lum_i, alpha_i)
+
+
+def still_water_frame(frame: int) -> list[list[tuple[int, int, int, int]]]:
+    """Pond surface: overlapping gerstner-like waves plus caustic glints."""
+    size = WATER_SIZE
+    t = frame / WATER_FRAMES
+    tau = 2.0 * math.pi
+    heights = [[0.0] * size for _ in range(size)]
+    for y in range(size):
+        v = y / size
+        for x in range(size):
+            u = x / size
+            h = 0.0
+            h += math.sin((u * 2.0 + t * 1.15) * tau) * 0.46
+            h += math.sin((v * 2.0 - t * 0.85) * tau) * 0.38
+            h += math.sin(((u + v) * 1.0 + t * 1.55) * tau) * 0.28
+            h += math.sin(((u - v) * 2.0 - t * 0.65) * tau) * 0.22
+            h += math.sin((u * 3.0 + v * 2.0 + t * 2.1) * tau) * 0.10
+            heights[y][x] = h
+    canvas = []
+    for y in range(size):
+        row = []
+        for x in range(size):
+            h = heights[y][x]
+            hx = heights[y][(x + 1) % size] - heights[y][(x - 1) % size]
+            hy = heights[(y + 1) % size][x] - heights[(y - 1) % size][x]
+            spec = max(0.0, -hx * 0.55 - hy * 0.45) ** 1.35
+            caustic = max(
+                0.0,
+                math.sin((x / size * 3.0 + t * 1.7) * 2.0 * math.pi)
+                * math.sin((y / size * 4.0 - t * 2.05) * 2.0 * math.pi),
+            ) ** 2
+            foam = max(0.0, h) ** 3 * 0.35
+            row.append(_shade_water(h, spec + caustic * 0.85, foam))
+        canvas.append(row)
+    return canvas
+
+
+def flowing_water_frame(frame: int) -> list[list[tuple[int, int, int, int]]]:
+    """Downhill current: advected filaments, standing waves, and whitewater."""
+    size = WATER_SIZE
+    t = frame / WATER_FRAMES
+    tau = 2.0 * math.pi
+    canvas = []
+    for y in range(size):
+        row = []
+        v = (y / size + t) % 1.0
+        v_fast = (y / size + t * 1.65) % 1.0
+        for x in range(size):
+            u = x / size
+            # Meandering streamlines so the current is not a straight stripe.
+            bend = math.sin(v * tau * 2.0 + t * tau) * 0.10
+            bend2 = math.sin(v_fast * tau * 3.0 - t * tau * 0.7) * 0.05
+            stream = math.sin((u + bend) * tau * 3.0)
+            filament = math.sin((u * 5.0 + bend2 - v_fast) * tau)
+            # Surface waves travelling with the flow.
+            wave = math.sin((v * 4.0 + u * 1.5) * tau) * 0.55
+            wave += math.sin((v_fast * 2.0 - u * 2.0) * tau) * 0.30
+            foam = max(0.0, stream) ** 2.4
+            whitewater = max(0.0, filament) ** 3 * 0.55
+            turb = max(0.0, math.sin((u * 7.0 + v * 11.0) * tau + t * tau * 4.0)) ** 2 * 0.25
+            height = wave * 0.55 + stream * 0.35 + filament * 0.15
+            spec = max(0.0, -wave) * 0.45 + foam * 0.5
+            row.append(_shade_water(height, spec, foam * 0.7 + whitewater + turb))
+        canvas.append(row)
+    return canvas
+
+
+def stack_frames(frames):
+    canvas = []
+    for frame in frames:
+        canvas.extend(frame)
+    return canvas
+
+
+def tint_water(canvas, rgb=(0.42, 0.68, 1.05)):
+    """Blue-tinted copy for the non-grey water sheets some Bedrock paths still sample."""
+    out = []
+    for row in canvas:
+        tinted = []
+        for red, green, blue, alpha in row:
+            tinted.append((
+                int(_clamp(red * rgb[0], 0, 255)),
+                int(_clamp(green * rgb[1], 0, 255)),
+                int(_clamp(blue * rgb[2], 0, 255)),
+                alpha,
+            ))
+        out.append(tinted)
+    return out
+
+
+def water_sheets() -> dict[str, list]:
+    still = stack_frames([still_water_frame(i) for i in range(WATER_FRAMES)])
+    flow = stack_frames([flowing_water_frame(i) for i in range(WATER_FRAMES)])
+    return {
+        "water_still_grey": still,
+        "water_flow_grey": flow,
+        "water_still": tint_water(still),
+        "water_flow": tint_water(flow),
+        "cauldron_water": still,
+    }
+
+
 def png_chunk(kind: bytes, data: bytes) -> bytes:
     return struct.pack(">I", len(data)) + kind + data + struct.pack(">I", zlib.crc32(kind + data) & 0xFFFFFFFF)
 
@@ -454,11 +578,16 @@ def main() -> None:
     for name, canvas in blocks.items():
         write_png(BLOCK_DIR / f"{name}.png", canvas)
 
+    water = water_sheets()
+    for name, canvas in water.items():
+        write_png(BLOCK_DIR / f"{name}.png", canvas)
+
     pack_icon = upscale(kindling_texture(32), 2)
     for path in PACK_ICON_PATHS:
         write_png(path, pack_icon)
     print(f"Generated {len(PALETTES) + 2 + len(new_items)} item textures, "
-          f"{len(blocks)} block textures, and {len(PACK_ICON_PATHS)} pack icons.")
+          f"{len(blocks)} block textures, {len(water)} water flipbooks, "
+          f"and {len(PACK_ICON_PATHS)} pack icons.")
 
 
 if __name__ == "__main__":

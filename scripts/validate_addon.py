@@ -146,6 +146,52 @@ def validate_sources() -> tuple[int, int, int]:
             if isinstance(box, dict):
                 assert len(box["origin"]) == 3 and len(box["size"]) == 3, f"{path}: bad {box_key}"
 
+    animation_files = sorted((RP / "animations").glob("*.json"))
+    animation_ids: set[str] = set()
+    assert animation_files, "missing resource-pack animation overrides"
+    for path in animation_files:
+        data = load_json(path)
+        assert data.get("format_version") == "1.8.0", f"{path}: bad animation format_version"
+        animations = data.get("animations")
+        assert isinstance(animations, dict) and animations, f"{path}: no animations"
+        for anim_id, anim in animations.items():
+            assert anim_id.startswith("animation."), f"{path}: bad animation id {anim_id}"
+            assert anim_id not in animation_ids, anim_id
+            animation_ids.add(anim_id)
+            assert anim.get("loop") is True, f"{path}: {anim_id} must loop"
+            bones = anim.get("bones")
+            assert isinstance(bones, dict) and bones, f"{path}: {anim_id} has no bones"
+            for bone_name, bone in bones.items():
+                assert bone_name, f"{path}: empty bone name"
+                assert any(key in bone for key in ("rotation", "position", "scale")), (
+                    f"{path}: {anim_id}.{bone_name} has no transform"
+                )
+
+    required_anims = {
+        "animation.humanoid.attack.rotations",
+        "animation.player.attack.rotations",
+        "animation.player.first_person.attack_rotation",
+        "animation.zombie.attack_bare_hand",
+        "animation.quadruped.walk",
+        "animation.creeper.legs",
+        "animation.spider.walk",
+        "animation.iron_golem.attack",
+        "animation.vindicator.attack",
+        "animation.chicken.move",
+    }
+    missing_anims = required_anims - animation_ids
+    assert not missing_anims, f"missing animation overrides: {sorted(missing_anims)}"
+
+    water_files = {
+        "water_still_grey.png": (16, 512),
+        "water_flow_grey.png": (16, 512),
+        "water_still.png": (16, 512),
+        "water_flow.png": (16, 512),
+        "cauldron_water.png": (16, 512),
+    }
+    for name, size in water_files.items():
+        assert_png(RP / "textures" / "blocks" / name, size)
+
     recipe_files = sorted((BP / "recipes").glob("*.json"))
     recipe_ids: set[str] = set()
     known_results = item_ids | block_ids
@@ -176,7 +222,7 @@ def validate_sources() -> tuple[int, int, int]:
         if result.startswith("realstick:"):
             assert result in known_results, f"{path}: unknown result {result}"
 
-    return len(item_files), len(block_files), len(recipe_files)
+    return len(item_files), len(block_files), len(recipe_files), len(animation_ids)
 
 
 def validate_package() -> None:
@@ -196,10 +242,11 @@ def validate_package() -> None:
 
 
 def main() -> int:
-    item_count, block_count, recipe_count = validate_sources()
+    item_count, block_count, recipe_count, animation_count = validate_sources()
     validate_package()
     print(f"Validated Realistic Sticks: {item_count} items, {block_count} 3D blocks, "
-          f"{recipe_count} recipes, 2 packs, package OK.")
+          f"{recipe_count} recipes, {animation_count} animation overrides, "
+          f"5 water flipbooks, 2 packs, package OK.")
     return 0
 
 

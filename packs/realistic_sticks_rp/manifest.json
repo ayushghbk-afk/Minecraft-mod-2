@@ -2,11 +2,11 @@
   "format_version": 2,
   "header": {
     "name": "Realistic Sticks | Resources",
-    "description": "Pixel textures and 3D models for natural wood sticks.",
+    "description": "Pixel wood textures, 3D camp models, livelier mob and attack animations, and realistic flowing water.",
     "uuid": "74e20c0d-8f94-4d65-9821-4131be457401",
     "version": [
       1,
-      1,
+      2,
       0
     ],
     "min_engine_version": [
@@ -22,7 +22,7 @@
       "uuid": "b8410363-f43b-429f-9b36-3d51d8dc8d01",
       "version": [
         1,
-        1,
+        2,
         0
       ]
     }
